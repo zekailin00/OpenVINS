@@ -26,6 +26,8 @@
 #include "types/Landmark.h"
 #include "utils/colors.h"
 
+#include "tracyHelper.h"
+
 #include <boost/math/distributions/chi_squared.hpp>
 
 using namespace ov_core;
@@ -213,6 +215,8 @@ namespace ov_msckf {
          * @param state Pointer to state
          */
         static void marginalize_old_clone(State *state) {
+            __ZoneScoped;
+
             if ((int) state->_clones_IMU.size() > state->_options.max_clone_size) {
                 double marginal_time = state->margtimestep();
                 StateHelper::marginalize(state, state->_clones_IMU.at(marginal_time));
@@ -227,6 +231,8 @@ namespace ov_msckf {
          * @param state Pointer to state
          */
         static void marginalize_slam(State* state) {
+            __ZoneScoped;
+
             // Remove SLAM features that have their marginalization flag set
             // We also check that we do not remove any aruoctag landmarks
             auto it0 = state->_features_SLAM.begin();

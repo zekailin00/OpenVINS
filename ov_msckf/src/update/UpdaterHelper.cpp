@@ -20,6 +20,7 @@
  */
 #include "UpdaterHelper.h"
 
+#include "tracyHelper.h"
 
 using namespace ov_core;
 using namespace ov_msckf;
@@ -27,6 +28,7 @@ using namespace ov_msckf;
 
 void UpdaterHelper::get_feature_jacobian_representation(State* state, UpdaterHelperFeature &feature, Eigen::MatrixXd &H_f,
                                                         std::vector<Eigen::MatrixXd> &H_x, std::vector<Type*> &x_order) {
+    __ZoneScoped;
 
     // Global XYZ representation
     if (feature.feat_representation == LandmarkRepresentation::Representation::GLOBAL_3D) {
@@ -193,6 +195,7 @@ void UpdaterHelper::get_feature_jacobian_representation(State* state, UpdaterHel
 
 
 void UpdaterHelper::get_feature_jacobian_intrinsics(State* state, const Eigen::Vector2d &uv_norm, bool isfisheye, Eigen::Matrix<double,8,1> cam_d, Eigen::Matrix<double,2,2> &dz_dzn, Eigen::Matrix<double,2,8> &dz_dzeta) {
+    __ZoneScoped;
 
     // Calculate distortion uv and jacobian
     if(isfisheye) {
@@ -306,6 +309,7 @@ void UpdaterHelper::get_feature_jacobian_intrinsics(State* state, const Eigen::V
 
 
 void UpdaterHelper::get_feature_jacobian_full(State* state, UpdaterHelperFeature &feature, Eigen::MatrixXd &H_f, Eigen::MatrixXd &H_x, Eigen::VectorXd &res, std::vector<Type*> &x_order) {
+    __ZoneScoped;
 
     // Total number of measurements for this feature
     int total_meas = 0;
@@ -583,6 +587,7 @@ void UpdaterHelper::get_feature_jacobian_full(State* state, UpdaterHelperFeature
 
 
 void UpdaterHelper::nullspace_project_inplace(Eigen::MatrixXd &H_f, Eigen::MatrixXd &H_x, Eigen::VectorXd &res) {
+    __ZoneScoped;
 
     // Apply the left nullspace of H_f to all variables
     // Based on "Matrix Computations 4th Edition by Golub and Van Loan"
@@ -616,6 +621,7 @@ void UpdaterHelper::nullspace_project_inplace(Eigen::MatrixXd &H_f, Eigen::Matri
 
 
 void UpdaterHelper::measurement_compress_inplace(Eigen::MatrixXd &H_x, Eigen::VectorXd &res) {
+    __ZoneScoped;
 
 
     // Return if H_x is a fat matrix (there is no need to compress in this case)

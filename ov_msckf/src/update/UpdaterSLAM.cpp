@@ -20,7 +20,7 @@
  */
 #include "UpdaterSLAM.h"
 
-
+#include "tracyHelper.h"
 
 using namespace ov_core;
 using namespace ov_msckf;
@@ -28,6 +28,7 @@ using namespace ov_msckf;
 
 
 void UpdaterSLAM::delayed_init(State *state, std::vector<Feature*>& feature_vec) {
+    __ZoneScoped;
 
     // Return if no features
     if(feature_vec.empty())
@@ -208,20 +209,22 @@ void UpdaterSLAM::delayed_init(State *state, std::vector<Feature*>& feature_vec)
     }
     rT3 =  boost::posix_time::microsec_clock::local_time();
 
+#ifndef NDEBUG
     // Debug print timing information
-    //if(!feature_vec.empty()) {
-    //    printf("[SLAM-DELAY]: %.4f seconds to clean\n",(rT1-rT0).total_microseconds() * 1e-6);
-    //    printf("[SLAM-DELAY]: %.4f seconds to triangulate\n",(rT2-rT1).total_microseconds() * 1e-6);
-    //    printf("[SLAM-DELAY]: %.4f seconds initialize (%d features)\n",(rT3-rT2).total_microseconds() * 1e-6, (int)feature_vec.size());
-    //    printf("[SLAM-DELAY]: %.4f seconds total\n",(rT3-rT1).total_microseconds() * 1e-6);
-    //}
+    if(!feature_vec.empty()) {
+       printf("[SLAM-DELAY]: %.4f seconds to clean\n",(rT1-rT0).total_microseconds() * 1e-6);
+       printf("[SLAM-DELAY]: %.4f seconds to triangulate\n",(rT2-rT1).total_microseconds() * 1e-6);
+       printf("[SLAM-DELAY]: %.4f seconds initialize (%d features)\n",(rT3-rT2).total_microseconds() * 1e-6, (int)feature_vec.size());
+       printf("[SLAM-DELAY]: %.4f seconds total\n",(rT3-rT1).total_microseconds() * 1e-6);
+    }
+#endif
 
 }
 
 
 
 void UpdaterSLAM::update(State *state, std::vector<Feature*>& feature_vec) {
-
+    __ZoneScopedN("UpdaterSLAM::update");
 
     // Return if no features
     if(feature_vec.empty())
@@ -439,11 +442,13 @@ void UpdaterSLAM::update(State *state, std::vector<Feature*>& feature_vec) {
     StateHelper::EKFUpdate(state, Hx_order_big, Hx_big, res_big, R_big);
     rT3 =  boost::posix_time::microsec_clock::local_time();
 
+#ifndef NDEBUG
     // Debug print timing information
-    //printf("[SLAM-UP]: %.4f seconds to clean\n",(rT1-rT0).total_microseconds() * 1e-6);
-    //printf("[SLAM-UP]: %.4f seconds creating linear system\n",(rT2-rT1).total_microseconds() * 1e-6);
-    //printf("[SLAM-UP]: %.4f seconds to update (%d feats of %d size)\n",(rT3-rT2).total_microseconds() * 1e-6, (int)feature_vec.size(), (int)Hx_big.rows());
-    //printf("[SLAM-UP]: %.4f seconds total\n",(rT3-rT1).total_microseconds() * 1e-6);
+    printf("[SLAM-UP]: %.4f seconds to clean\n",(rT1-rT0).total_microseconds() * 1e-6);
+    printf("[SLAM-UP]: %.4f seconds creating linear system\n",(rT2-rT1).total_microseconds() * 1e-6);
+    printf("[SLAM-UP]: %.4f seconds to update (%d feats of %d size)\n",(rT3-rT2).total_microseconds() * 1e-6, (int)feature_vec.size(), (int)Hx_big.rows());
+    printf("[SLAM-UP]: %.4f seconds total\n",(rT3-rT1).total_microseconds() * 1e-6);
+#endif
 
 }
 

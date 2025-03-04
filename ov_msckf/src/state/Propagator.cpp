@@ -20,7 +20,7 @@
  */
 #include "Propagator.h"
 
-
+#include "tracyHelper.h"
 
 using namespace ov_core;
 using namespace ov_msckf;
@@ -29,6 +29,7 @@ using namespace ov_msckf;
 
 
 void Propagator::propagate_and_clone(State* state, double timestamp) {
+    __ZoneScoped;
 
     // If the difference between the current update time and state is zero
     // We should crash, as this means we would have two clones at the same time!!!!
@@ -116,7 +117,7 @@ void Propagator::propagate_and_clone(State* state, double timestamp) {
 
 
 void Propagator::fast_state_propagate(State *state, double timestamp, Eigen::Matrix<double,13,1> &state_plus) {
-
+    __ZoneScoped;
     // Set the last time offset value if we have just started the system up
     if(!have_last_prop_time_offset) {
         last_prop_time_offset = state->_calib_dt_CAMtoIMU->value()(0);
@@ -189,7 +190,7 @@ void Propagator::fast_state_propagate(State *state, double timestamp, Eigen::Mat
 
 
 std::vector<Propagator::IMUDATA> Propagator::select_imu_readings(const std::vector<IMUDATA>& imu_data, double time0, double time1) {
-
+    __ZoneScoped;
     // Our vector imu readings
     std::vector<Propagator::IMUDATA> prop_data;
 
@@ -289,6 +290,7 @@ std::vector<Propagator::IMUDATA> Propagator::select_imu_readings(const std::vect
 
 void Propagator::predict_and_compute(State *state, const IMUDATA data_minus, const IMUDATA data_plus,
                                      Eigen::Matrix<double,15,15> &F, Eigen::Matrix<double,15,15> &Qd) {
+    __ZoneScoped;
 
     // Set them to zero
     F.setZero();
@@ -404,6 +406,7 @@ void Propagator::predict_mean_discrete(State *state, double dt,
                                         const Eigen::Vector3d &w_hat1, const Eigen::Vector3d &a_hat1,
                                         const Eigen::Vector3d &w_hat2, const Eigen::Vector3d &a_hat2,
                                         Eigen::Vector4d &new_q, Eigen::Vector3d &new_v, Eigen::Vector3d &new_p) {
+    __ZoneScoped;
 
     // If we are averaging the IMU, then do so
     Eigen::Vector3d w_hat = w_hat1;
@@ -442,6 +445,7 @@ void Propagator::predict_mean_rk4(State *state, double dt,
                                   const Eigen::Vector3d &w_hat1, const Eigen::Vector3d &a_hat1,
                                   const Eigen::Vector3d &w_hat2, const Eigen::Vector3d &a_hat2,
                                   Eigen::Vector4d &new_q, Eigen::Vector3d &new_v, Eigen::Vector3d &new_p) {
+    __ZoneScoped;
 
     // Pre-compute things
     Eigen::Vector3d w_hat = w_hat1;

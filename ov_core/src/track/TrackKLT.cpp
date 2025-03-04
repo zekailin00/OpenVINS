@@ -21,10 +21,13 @@
 #include "TrackKLT.h"
 #include <opencv2/video/tracking.hpp>
 
+#include "tracyHelper.h"
+
 using namespace ov_core;
 
 
 void TrackKLT::feed_monocular(double timestamp, cv::Mat &img, size_t cam_id) {
+    __ZoneScoped;
 
     // Start timing
     rT1 =  boost::posix_time::microsec_clock::local_time();
@@ -131,6 +134,7 @@ void TrackKLT::feed_monocular(double timestamp, cv::Mat &img, size_t cam_id) {
 
 
 void TrackKLT::feed_stereo(double timestamp, cv::Mat &img_leftin, cv::Mat &img_rightin, size_t cam_id_left, size_t cam_id_right) {
+    __ZoneScoped;
 
     // Start timing
     rT1 =  boost::posix_time::microsec_clock::local_time();
@@ -140,6 +144,8 @@ void TrackKLT::feed_stereo(double timestamp, cv::Mat &img_leftin, cv::Mat &img_r
     std::unique_lock<std::mutex> lck2(mtx_feeds.at(cam_id_right));
 
     cv::Mat img_left, img_right;
+{
+    __ZoneScopedN("cv::equalizeHist");
 #ifdef ILLIXR_INTEGRATION
     // Histogram equalize
     std::thread t_lhe = std::thread(cv::equalizeHist, cv::_InputArray(img_leftin ), cv::_OutputArray(img_left ));
@@ -150,9 +156,12 @@ void TrackKLT::feed_stereo(double timestamp, cv::Mat &img_leftin, cv::Mat &img_r
 #endif /// ILLIXR_INTEGRATION
     t_lhe.join();
     t_rhe.join();
+}
 
     // Extract image pyramids (boost seems to require us to put all the arguments even if there are defaults....)
     std::vector<cv::Mat> imgpyr_left, imgpyr_right;
+{
+    __ZoneScopedN("cv::buildOpticalFlowPyramid");
 #ifdef ILLIXR_INTEGRATION
     std::thread t_lp = std::thread(&cv::buildOpticalFlowPyramid, cv::_InputArray(img_left),
                                        cv::_OutputArray(imgpyr_left), win_size, pyr_levels, false,
@@ -170,6 +179,7 @@ void TrackKLT::feed_stereo(double timestamp, cv::Mat &img_leftin, cv::Mat &img_r
 #endif /// ILLIXR_INTEGRATION
     t_lp.join();
     t_rp.join();
+}
 
     rT2 =  boost::posix_time::microsec_clock::local_time();
 
@@ -202,6 +212,8 @@ void TrackKLT::feed_stereo(double timestamp, cv::Mat &img_leftin, cv::Mat &img_r
     std::vector<cv::KeyPoint> pts_left_new = pts_last[cam_id_left];
     std::vector<cv::KeyPoint> pts_right_new = pts_last[cam_id_right];
 
+{
+    __ZoneScopedN("TrackKLT::perform_matching");
     // Lets track temporally
 #ifdef ILLIXR_INTEGRATION
     std::thread t_ll = std::thread(&TrackKLT::perform_matching, this, boost::cref(img_pyramid_last[cam_id_left]), boost::cref(imgpyr_left),
@@ -218,6 +230,7 @@ void TrackKLT::feed_stereo(double timestamp, cv::Mat &img_leftin, cv::Mat &img_r
     // Wait till both threads finish
     t_ll.join();
     t_rr.join();
+}
 
     rT4 =  boost::posix_time::microsec_clock::local_time();
 
@@ -254,7 +267,8 @@ void TrackKLT::feed_stereo(double timestamp, cv::Mat &img_leftin, cv::Mat &img_r
     // Get our "good tracks"
     std::vector<cv::KeyPoint> good_left, good_right;
     std::vector<size_t> good_ids_left, good_ids_right;
-
+{
+    __ZoneScopedN("filter good tracks");
     // Loop through all left points
     for(size_t i=0; i<pts_left_new.size(); i++) {
         // Ensure we do not have any bad KLT tracks (i.e., points are negative)
@@ -302,10 +316,11 @@ void TrackKLT::feed_stereo(double timestamp, cv::Mat &img_leftin, cv::Mat &img_r
             //std::cout << "adding to right - " << ids_last[cam_id_right].at(i) << std::endl;
         }
     }
-
+}
     //===================================================================================
     //===================================================================================
-
+{
+    __ZoneScopedN("Update feature DB");
     // Update our feature database, with theses new observations
     for(size_t i=0; i<good_left.size(); i++) {
         cv::Point2f npt_l = undistort_point(good_left.at(i).pt, cam_id_left);
@@ -319,7 +334,7 @@ void TrackKLT::feed_stereo(double timestamp, cv::Mat &img_leftin, cv::Mat &img_r
                                  good_right.at(i).pt.x, good_right.at(i).pt.y,
                                  npt_r.x, npt_r.y);
     }
-
+}
     // Move forward in time
     img_last[cam_id_left] = img_left.clone();
     img_last[cam_id_right] = img_right.clone();
@@ -427,6 +442,8 @@ void TrackKLT::perform_detection_monocular(const std::vector<cv::Mat> &img0pyr, 
 void TrackKLT::perform_detection_stereo(const std::vector<cv::Mat> &img0pyr, const std::vector<cv::Mat> &img1pyr,
                                         std::vector<cv::KeyPoint> &pts0, std::vector<cv::KeyPoint> &pts1,
                                         std::vector<size_t> &ids0, std::vector<size_t> &ids1) {
+
+    __ZoneScoped;
 
     // Create a 2D occupancy grid for this current image
     // Note that we scale this down, so that each grid point is equal to a set of pixels

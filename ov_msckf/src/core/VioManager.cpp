@@ -23,6 +23,9 @@
 
 #include "utils/parse_cmd.h"
 
+
+#include "tracyHelper.h"
+
 using namespace ov_core;
 using namespace ov_type;
 using namespace ov_msckf;
@@ -130,6 +133,8 @@ VioManager::VioManager(VioManagerOptions& params_) {
 
 
 void VioManager::feed_measurement_imu(double timestamp, Eigen::Vector3d wm, Eigen::Vector3d am) {
+    __ZoneScoped;
+    __TracyMessageL("imu received");
 
     // Push back to our propagator
     propagator->feed_imu(timestamp,wm,am);
@@ -170,6 +175,9 @@ void VioManager::feed_measurement_monocular(double timestamp, cv::Mat& img0, siz
 }
 
 void VioManager::feed_measurement_stereo(double timestamp, cv::Mat& img0, cv::Mat& img1, size_t cam_id0, size_t cam_id1) {
+
+    __ZoneScoped;
+    __TracyMessageL("images received");
 
     // Start timing
     rT1 =  boost::posix_time::microsec_clock::local_time();
@@ -301,6 +309,7 @@ bool VioManager::try_to_initialize() {
 
 
 void VioManager::do_feature_propagate_update(double timestamp) {
+    __ZoneScoped;
 
 
     //===================================================================================
@@ -497,6 +506,8 @@ void VioManager::do_feature_propagate_update(double timestamp) {
     // Cleanup, marginalize out what we don't need any more...
     //===================================================================================
 
+{
+    __ZoneScopedN("marginalize");
     // First do anchor change if we are about to lose an anchor pose
     updaterSLAM->change_anchors(state);
 
@@ -513,6 +524,7 @@ void VioManager::do_feature_propagate_update(double timestamp) {
 
     // Finally if we are optimizing our intrinsics, update our trackers
     if(state->_options.do_calib_camera_intrinsics) {
+        __ZoneScopedN("do_calib_camera_intrinsics");
         // Get vectors arrays
         std::map<size_t, Eigen::VectorXd> cameranew_calib;
         std::map<size_t, bool> cameranew_fisheye;
@@ -530,6 +542,7 @@ void VioManager::do_feature_propagate_update(double timestamp) {
     }
     rT7 =  boost::posix_time::microsec_clock::local_time();
 
+}
 
     //===================================================================================
     // Debug info, and stats tracking
