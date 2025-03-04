@@ -8,69 +8,6 @@ project(ov_msckf)
 # Include our cmake files
 #set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake/)
 
-# Find catkin (the ROS build system)
-#find_package(catkin QUIET COMPONENTS roscpp rosbag tf std_msgs geometry_msgs sensor_msgs nav_msgs visualization_msgs cv_bridge ov_core)
-
-# Include libraries
-find_package(Eigen3 REQUIRED)
-find_package(OpenCV REQUIRED)
-find_package(Boost REQUIRED COMPONENTS system filesystem thread date_time)
-
-# display message to user
-message(STATUS "EIGEN VERSION: " ${Eigen3_VERSION})
-message(STATUS "OPENCV VERSION: " ${OpenCV_VERSION})
-message(STATUS "BOOST VERSION: " ${Boost_VERSION})
-if(${OpenCV_VERSION_MAJOR} EQUAL 4)
-    add_definitions(-DUSING_OPENCV4)
-endif()
-
-# Describe catkin project
-if (catkin_FOUND)
-    add_definitions(-DROS_AVAILABLE=1)
-    catkin_package(
-            CATKIN_DEPENDS roscpp rosbag tf std_msgs geometry_msgs sensor_msgs nav_msgs visualization_msgs cv_bridge ov_core
-            INCLUDE_DIRS src
-            LIBRARIES ov_msckf_lib
-    )
-else()
-    message(WARNING "CATKIN NOT FOUND BUILDING WITHOUT ROS!")
-endif()
-
-if (ILLIXR_INTEGRATION)
-    # Enable compile optimizations
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DILLIXR_INTEGRATION -O3 -fsee -fomit-frame-pointer -fno-signed-zeros -fno-math-errno -funroll-loops")
-    # Enable debug flags (use if you want to debug in gdb)
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g3 -Wall -Wuninitialized")
-    include_directories(${ILLIXR_ROOT}
-            src
-            ${OpenCV_INCLUDE_DIR}
-            ${EIGEN3_INCLUDE_DIR}
-            ${Boost_INCLUDE_DIRS}
-            ${catkin_INCLUDE_DIRS}
-            )
-else()
-    # Enable compile optimizations
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -fsee -fomit-frame-pointer -fno-signed-zeros -fno-math-errno -funroll-loops")
-    # Enable debug flags (use if you want to debug in gdb)
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g3 -Wall -Wuninitialized")
-    # Include our header files
-    include_directories(
-            src
-            ${OpenCV_INCLUDE_DIR}
-            ${EIGEN3_INCLUDE_DIR}
-            ${Boost_INCLUDE_DIRS}
-            ${catkin_INCLUDE_DIRS}
-    )
-
-endif()
-
-
-# Set link libraries used by all binaries
-list(APPEND thirdparty_libraries
-        ${Boost_LIBRARIES}
-        ${OpenCV_LIBRARIES}
-        ${catkin_LIBRARIES}
-)
 
 # If we are not building with ROS then we need to manually link to its headers
 # This isn't that elegant of a way, but this at least allows for building without ROS
@@ -99,7 +36,7 @@ if (catkin_FOUND)
         src/core/RosVisualizer.cpp
     )
 endif()
-add_library(ov_msckf_lib SHARED ${library_source_files})
+add_library(ov_msckf_lib STATIC ${library_source_files})
 target_link_libraries(ov_msckf_lib ${thirdparty_libraries})
 target_include_directories(ov_msckf_lib PUBLIC src)
 set_property(TARGET ov_msckf_lib PROPERTY CXX_STANDARD 17)

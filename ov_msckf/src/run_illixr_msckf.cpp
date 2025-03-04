@@ -20,7 +20,7 @@
  */
 
 
-#include <opencv/cv.hpp>
+// #include <opencv/cv.hpp>
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 
@@ -30,6 +30,10 @@
 #include <fstream>
 #include <iostream>
 #include <algorithm>
+#include <map>
+#include <Eigen/Dense>
+
+#include "tracyHelper.h"
 
 using namespace ov_msckf;
 
@@ -134,10 +138,13 @@ VioManagerOptions create_params()
     return params;
 }
 
-void load_images(const string &file_name, unordered_map<double, string> &rgb_images,
+void load_images(const string &file_name, map<double, string> &rgb_images,
                  vector<double> &timestamps) {
     ifstream file_in;
     file_in.open(file_name.c_str());
+
+    if (!file_in.is_open())
+        throw;
 
     // skip first line
     string s;
@@ -158,7 +165,7 @@ void load_images(const string &file_name, unordered_map<double, string> &rgb_ima
     }
 }
 
-void load_imu_data(const string &file_name, unordered_map<double, imu_data> &imu_data_vals,
+void load_imu_data(const string &file_name, map<double, imu_data> &imu_data_vals,
                    vector<double> &timestamps) {
     ifstream file_in;
     file_in.open(file_name.c_str());
@@ -198,9 +205,9 @@ int main(int argc, char** argv) {
         return 1;
     }
 
-    unordered_map<double, string> cam0_images;
-    unordered_map<double, string> cam1_images;
-    unordered_map<double, imu_data> imu0_vals;
+    map<double, string> cam0_images;
+    map<double, string> cam1_images;
+    map<double, imu_data> imu0_vals;
     vector<double> cam0_timestamps;
     vector<double> cam1_timestamps;
     vector<double> imu0_timestamps;
@@ -215,10 +222,10 @@ int main(int argc, char** argv) {
     load_imu_data(imu0_filename, imu0_vals, imu0_timestamps);
 
     cout << "cam0 images: " << cam0_images.size() << "  cam1 images: " << cam1_images.size() << "  imu0 data: " << imu0_vals.size() << endl;
-    if (cam0_images.size() != cam1_images.size()) {
-        cerr << "Mismatched number of cam0 and cam1 images!" << endl;
-        return 1;
-    }
+    // if (cam0_images.size() != cam1_images.size()) {
+    //     cerr << "Mismatched number of cam0 and cam1 images!" << endl;
+    //     return 1;
+    // }
 
     cout << "Finished Loading Data!!!!" << endl;
 
@@ -247,6 +254,8 @@ int main(int argc, char** argv) {
 
     // Loop through data files (camera and imu)
     unsigned num_images = 0;
+    auto prevRow0 = cam0_images.cend();
+    auto prevRow1 = cam1_images.cend();
     for (auto timem : imu0_timestamps) {
         // Handle IMU measurement
         if (imu0_vals.find(timem) != imu0_vals.end()) {
@@ -260,25 +269,33 @@ int main(int argc, char** argv) {
         }
 
         // Handle LEFT camera
-        if (cam0_images.find(timem) != cam0_images.end()) {
+        auto row0 = cam0_images.upper_bound(timem);
+        if (prevRow0 != row0 && row0 != cam0_images.end()) {
+            __ZoneScopedN("cv::imread(cam0)");
+            prevRow0 = row0;
             // Get the image
-            img0 = cv::imread(cam0_images_path+ "/" +cam0_images.at(timem), cv::IMREAD_COLOR);
+            img0 = cv::imread(cam0_images_path+ "/" + row0->second, cv::IMREAD_COLOR);
+            cout << endl << "Load image at: " << cam0_images_path << "/" << cam0_images.at(row0->first) << endl;
             cv::cvtColor(img0, img0, cv::COLOR_BGR2GRAY);
             if (img0.empty()) {
                 cerr << endl << "Failed to load image at: "
-                     << cam0_images_path << "/" << cam0_images.at(timem) << endl;
+                     << cam0_images_path << "/" << cam0_images.at(row0->first) << endl;
                 return 1;
             }
 
             // Save to our temp variable
             has_left = true;
-            time = timem/1000000000.0;
+            time = row0->first/1000000000.0;
         }
 
         // Handle RIGHT camera
-        if (cam1_images.find(timem) != cam1_images.end()) {
+        auto row1 = cam0_images.upper_bound(timem);
+        if (prevRow1 != row1 && row1 != cam1_images.end()) {
+            __ZoneScopedN("cv::imread(cam1)");
+            prevRow1 = row1;
             // Get the image
-            img1 = cv::imread(cam1_images_path+ "/" +cam1_images.at(timem), cv::IMREAD_COLOR);
+            img1 = cv::imread(cam1_images_path+ "/" + row1->second, cv::IMREAD_COLOR);
+            cout << endl << "Load image at: " << cam1_images_path << "/" << cam1_images.at(timem) << endl;
             cv::cvtColor(img1, img1, cv::COLOR_BGR2GRAY);
             if (img1.empty()) {
                 cerr << endl << "Failed to load image at: "
@@ -340,10 +357,19 @@ int main(int argc, char** argv) {
             img1_buffer = img1.clone();
 
             num_images++;
+
+            ov_msckf::State *state = sys->get_state();
+            Eigen::Vector4d quat = state->_imu->quat();
+            Eigen::Vector3d vel = state->_imu->vel();
+            Eigen::Vector3d pose = state->_imu->pos();
+            std::cout << std::endl << std::endl << std::endl << std::endl << "-------END OF FRAME ------\n";
+            std::cout << "quat: " << quat << std::endl;
+            std::cout << "vel: " << vel << std::endl;
+            std::cout << "pose: " << pose << std::endl;
         }
 
-        //if (num_images == 500)
-        //    break;
+        if (num_images == 100)
+           break;
     }
 
     // Dump frame times

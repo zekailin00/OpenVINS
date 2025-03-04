@@ -54,7 +54,11 @@ void TrackAruco::feed_monocular(double timestamp, cv::Mat &imgin, size_t cam_id)
     //===================================================================================
 
     // Perform extraction
-    cv::aruco::detectMarkers(img0,aruco_dict,corners[cam_id],ids_aruco[cam_id],aruco_params,rejects[cam_id]);
+#if CV_MAJOR_VERSION > 4 || ( CV_MAJOR_VERSION == 4 && CV_MINOR_VERSION >= 7)
+    aruco_detector.detectMarkers(img0, corners[cam_id], ids_aruco[cam_id], rejects[cam_id]);
+#else
+    cv::aruco::detectMarkers(img0, aruco_dict, corners[cam_id], ids_aruco[cam_id], aruco_params, rejects[cam_id]);
+#endif
     rT2 =  boost::posix_time::microsec_clock::local_time();
 
 
@@ -153,9 +157,14 @@ void TrackAruco::feed_stereo(double timestamp, cv::Mat &img_leftin, cv::Mat &img
     //===================================================================================
     //===================================================================================
 
+#if CV_MAJOR_VERSION > 4 || ( CV_MAJOR_VERSION == 4 && CV_MINOR_VERSION >= 7)
+    aruco_detector.detectMarkers(img0, corners[cam_id_left], ids_aruco[cam_id_left], rejects[cam_id_left]);
+    aruco_detector.detectMarkers(img1, corners[cam_id_right], ids_aruco[cam_id_right], rejects[cam_id_right]);
+#else
     // Perform extraction (doing this in parallel is actually slower on my machine -pgeneva)
     cv::aruco::detectMarkers(img0,aruco_dict,corners[cam_id_left],ids_aruco[cam_id_left],aruco_params,rejects[cam_id_left]);
     cv::aruco::detectMarkers(img1,aruco_dict,corners[cam_id_right],ids_aruco[cam_id_right],aruco_params,rejects[cam_id_right]);
+#endif
     rT2 =  boost::posix_time::microsec_clock::local_time();
 
 

@@ -43,8 +43,14 @@ namespace ov_core {
          * @brief Public default constructor
          */
         TrackAruco() : TrackBase(), max_tag_id(1024), do_downsizing(false) {
+#if CV_MAJOR_VERSION > 4 || ( CV_MAJOR_VERSION == 4 && CV_MINOR_VERSION >= 7)
+            aruco_dict = cv::aruco::getPredefinedDictionary(cv::aruco::DICT_6X6_1000);
+            aruco_params.cornerRefinementMethod = cv::aruco::CORNER_REFINE_SUBPIX;
+            aruco_detector = cv::aruco::ArucoDetector(aruco_dict, aruco_params);
+#else
             aruco_dict = cv::aruco::getPredefinedDictionary(cv::aruco::DICT_6X6_250);
             aruco_params = cv::aruco::DetectorParameters::create();
+#endif
             //aruco_params->cornerRefinementMethod = cv::aruco::CornerRefineMethod::CORNER_REFINE_SUBPIX; // people with newer opencv might fail here
         }
 
@@ -54,8 +60,14 @@ namespace ov_core {
          * @param do_downsizing we can scale the image by 1/2 to increase Aruco tag extraction speed
          */
         explicit TrackAruco(int numaruco, bool do_downsizing) : TrackBase(0, numaruco), max_tag_id(numaruco), do_downsizing(do_downsizing) {
+#if CV_MAJOR_VERSION > 4 || ( CV_MAJOR_VERSION == 4 && CV_MINOR_VERSION >= 7)
+            aruco_dict = cv::aruco::getPredefinedDictionary(cv::aruco::DICT_6X6_1000);
+            aruco_params.cornerRefinementMethod = cv::aruco::CORNER_REFINE_SUBPIX;
+            aruco_detector = cv::aruco::ArucoDetector(aruco_dict, aruco_params);
+#else
             aruco_dict = cv::aruco::getPredefinedDictionary(cv::aruco::DICT_6X6_250);
             aruco_params = cv::aruco::DetectorParameters::create();
+#endif
             //aruco_params->cornerRefinementMethod = cv::aruco::CornerRefineMethod::CORNER_REFINE_SUBPIX; // people with newer opencv might fail here
         }
 
@@ -97,13 +109,20 @@ namespace ov_core {
 
         // If we should downsize the image
         bool do_downsizing;
-
+#if CV_MAJOR_VERSION > 4 || ( CV_MAJOR_VERSION == 4 && CV_MINOR_VERSION >= 7)
+        // Our dictionary that we will extract aruco tags with
+        cv::aruco::Dictionary aruco_dict;
+        // Parameters the opencv extractor uses
+        cv::aruco::DetectorParameters aruco_params;
+        // Actual detector class
+        cv::aruco::ArucoDetector aruco_detector;
+#else
         // Our dictionary that we will extract aruco tags with
         cv::Ptr<cv::aruco::Dictionary> aruco_dict;
 
         // Parameters the opencv extractor uses
         cv::Ptr<cv::aruco::DetectorParameters> aruco_params;
-
+#endif
         // Mutex for our ids_aruco, corners, rejects which we use for drawing
         std::mutex mtx_aruco;
 
