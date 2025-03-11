@@ -3,7 +3,7 @@ set(CMAKE_SYSTEM_PROCESSOR riscv64)
 
 ###### Project setup ######
 # Clone and initialize chipyard
-# Upgrade RISC GNU compiler from 13 to 14 `mamba update riscv-tools`
+# Upgrade RISC GNU compiler from 13 to 14 `mamba update ucb-bar::riscv-tools`
 # Upgrade Ubuntu from 18 to 24
 # --`apt-get update`, `sudo apt update`, `sudo apt upgrade`, `do-release-upgrade`
 # -- Keep running those commands until the version goes from 18 to 24
