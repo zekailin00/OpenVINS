@@ -6,8 +6,16 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_BUILD_TYPE DEBUG)
 
+add_definitions(-DTIMING_DEBUG -DSMP_DEBUG)
 
-# find_package(Tracy REQUIRED)
+if (CMAKE_CROSSCOMPILING)
+    add_definitions(-DCMAKE_CROSSCOMPILING)
+endif()
+
+if (NOT CMAKE_CROSSCOMPILING)
+    find_package(Tracy REQUIRED)
+endif()
+
 if(${Tracy_FOUND})
     add_definitions(-DTRACY_ENABLE)
     get_target_property(Tracy_INCLUDE_DIR Tracy::TracyClient INTERFACE_INCLUDE_DIRECTORIES)
@@ -23,20 +31,27 @@ if(${Tracy_FOUND})
 endif()
 
 # TODO: fetch and build directly from github
-find_package(OpenCV REQUIRED PATHS "/home/zekailin00/Desktop/opencv/build/drops")
+if (CMAKE_CROSSCOMPILING)
+    find_package(OpenCV REQUIRED PATHS "/home/zekailin00/Desktop/opencv/build-debug-rvv/drops-debug-rvv")
+else()
+    find_package(OpenCV REQUIRED)
+endif()
 
-set(NOFORTRAN "1")
-set(DYNAMIC_ARCH ON)
-set(BUILD_WITHOUT_LAPACK OFF)
-set(BUILD_TESTING OFF)
-set(BUILD_BENCHMARKS OFF)
-set(TARGET "RISCV64_GENERIC")
+if (CMAKE_CROSSCOMPILING)
+    set(NOFORTRAN "1")
+    set(DYNAMIC_ARCH OFF)
+    set(BUILD_WITHOUT_LAPACK OFF)
+    set(BUILD_TESTING OFF)
+    set(BUILD_BENCHMARKS OFF)
+    set(TARGET "RISCV64_ZVL128B")
+endif()
+
+add_definitions(-DEIGEN_USE_BLAS=1)
 add_subdirectory(${CMAKE_SOURCE_DIR}/external/OpenBLAS)
-
 add_subdirectory(${CMAKE_SOURCE_DIR}/external/eigen)
 add_subdirectory(${CMAKE_SOURCE_DIR}/external/boost)
 
-add_definitions(-DEIGEN_USE_BLAS=1)
+
 if(${OpenCV_VERSION_MAJOR} EQUAL 4)
     add_definitions(-DUSING_OPENCV4)
 endif()
@@ -57,7 +72,7 @@ list(APPEND thirdparty_libraries
     opencv_dnn
     opencv_features2d
     opencv_flann
-    opencv_gapi
+    # opencv_gapi
     opencv_highgui
     opencv_imgcodecs
     opencv_imgproc
@@ -91,7 +106,7 @@ list(APPEND thirdparty_libraries
     opencv_rgbd
     opencv_saliency
     opencv_shape
-    opencv_signal
+    # opencv_signal
     opencv_stereo
     opencv_structured_light
     opencv_superres
@@ -100,7 +115,7 @@ list(APPEND thirdparty_libraries
     opencv_tracking
     opencv_videostab
     # opencv_wechat_qrcode
-    opencv_xfeatures2d
+    # opencv_xfeatures2d
     opencv_ximgproc
     opencv_xobjdetect
     opencv_xphoto

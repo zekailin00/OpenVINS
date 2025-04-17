@@ -1,0 +1,64 @@
+{
+    "configurations": [
+        {
+            "name": "msckf x86",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/ov_msckf/run_illixr_msckf",
+            "args": [
+                "data/mav0/cam0/data.csv",
+                "data/mav0/cam1/data.csv",
+                "data/mav0/imu0/data.csv",
+                "data/mav0/cam0/data",
+                "data/mav0/cam1/data",
+                "2>&1", "|", "tee" ,"log.txt",
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [
+                { "name": "OPENBLAS_NUM_THREADS", "value": "3" },
+                { "name": "GOTO_DEBUG", "value": "0" }
+            ],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "msckf riscv",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build-riscv/ov_msckf/run_illixr_msckf",
+            "miDebuggerServerAddress": "localhost:6969",
+            "args": [
+                "data/mav0/cam0/data.csv",
+                "data/mav0/cam1/data.csv",
+                "data/mav0/imu0/data.csv",
+                "data/mav0/cam0/data",
+                "data/mav0/cam1/data",
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [
+                { "name": "OPENBLAS_NUM_THREADS", "value": "3" },
+                { "name": "GOTO_DEBUG", "value": "0" }
+            ],
+            "externalConsole": true,
+            "launchCompleteCommand": "exec-run",
+            "linux": {
+                "MIMode": "gdb",
+                "miDebuggerPath": "/home/zekailin00/Desktop/chipyard-t/.conda-env/riscv-tools/bin/riscv64-unknown-linux-gnu-gdb"
+            }
+        }
+    ]
+}

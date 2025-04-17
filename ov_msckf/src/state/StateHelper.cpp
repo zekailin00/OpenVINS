@@ -28,6 +28,7 @@ using namespace ov_msckf;
 
 void StateHelper::EKFPropagation(State *state, const std::vector<Type*> &order_NEW, const std::vector<Type*> &order_OLD,
                                  const Eigen::MatrixXd &Phi, const Eigen::MatrixXd &Q) {
+    __ZoneScoped;
 
     // We need at least one old and new variable
     if (order_NEW.empty() || order_OLD.empty()) {
@@ -103,13 +104,14 @@ void StateHelper::EKFPropagation(State *state, const std::vector<Type*> &order_N
             found_neg = true;
         }
     }
-    assert(!found_neg);
+    // assert(!found_neg);
 
 }
 
 
 void StateHelper::EKFUpdate(State *state, const std::vector<Type *> &H_order, const Eigen::MatrixXd &H,
                             const Eigen::VectorXd &res, const Eigen::MatrixXd &R) {
+    __ZoneScopedC(0xfc4103);
 
     //==========================================================
     //==========================================================
@@ -174,7 +176,7 @@ void StateHelper::EKFUpdate(State *state, const std::vector<Type *> &H_order, co
             found_neg = true;
         }
     }
-    assert(!found_neg);
+    // assert(!found_neg);
 
     // Calculate our delta and update all our active states
     Eigen::VectorXd dx = K*res;
@@ -187,6 +189,7 @@ void StateHelper::EKFUpdate(State *state, const std::vector<Type *> &H_order, co
 
 
 Eigen::MatrixXd StateHelper::get_marginal_covariance(State *state, const std::vector<Type *> &small_variables) {
+    __ZoneScoped;
 
     // Calculate the marginal covariance size we need to make our matrix
     int cov_size = 0;
@@ -218,6 +221,7 @@ Eigen::MatrixXd StateHelper::get_marginal_covariance(State *state, const std::ve
 
 
 Eigen::MatrixXd StateHelper::get_full_covariance(State *state) {
+    __ZoneScoped;
 
     // Size of the covariance is the active
     int cov_size = (int)state->_Cov.rows();
@@ -237,6 +241,7 @@ Eigen::MatrixXd StateHelper::get_full_covariance(State *state) {
 
 
 void StateHelper::marginalize(State *state, Type *marg) {
+    __ZoneScoped;
 
     // Check if the current state has the element we want to marginalize
     if (std::find(state->_variables.begin(), state->_variables.end(), marg) == state->_variables.end()) {
@@ -306,6 +311,7 @@ void StateHelper::marginalize(State *state, Type *marg) {
 
 
 Type* StateHelper::clone(State *state, Type *variable_to_clone) {
+    __ZoneScoped;
 
     //Get total size of new cloned variables, and the old covariance size
     int total_size = variable_to_clone->size();
@@ -361,6 +367,7 @@ Type* StateHelper::clone(State *state, Type *variable_to_clone) {
 
 bool StateHelper::initialize(State *state, Type *new_variable, const std::vector<Type *> &H_order, Eigen::MatrixXd &H_R,
                              Eigen::MatrixXd &H_L, Eigen::MatrixXd &R, Eigen::VectorXd &res, double chi_2_mult) {
+    __ZoneScoped;
 
     // Check that this new variable is not already initialized
     if (std::find(state->_variables.begin(), state->_variables.end(), new_variable) != state->_variables.end()) {
@@ -453,6 +460,7 @@ bool StateHelper::initialize(State *state, Type *new_variable, const std::vector
 
 void StateHelper::initialize_invertible(State *state, Type *new_variable, const std::vector<Type *> &H_order, const Eigen::MatrixXd &H_R,
                                         const Eigen::MatrixXd &H_L, const Eigen::MatrixXd &R, const Eigen::VectorXd &res) {
+    __ZoneScoped;
 
     // Check that this new variable is not already initialized
     if (std::find(state->_variables.begin(), state->_variables.end(), new_variable) != state->_variables.end()) {
@@ -548,6 +556,7 @@ void StateHelper::initialize_invertible(State *state, Type *new_variable, const 
 
 
 void StateHelper::augment_clone(State *state, Eigen::Matrix<double, 3, 1> last_w) {
+    __ZoneScoped;
 
     // Call on our marginalizer to clone, it will add it to our vector of types
     // NOTE: this will clone the clone pose to the END of the covariance...

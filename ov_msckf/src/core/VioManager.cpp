@@ -31,6 +31,7 @@ using namespace ov_type;
 using namespace ov_msckf;
 
 VioManager::VioManager(VioManagerOptions& params_) {
+    __ZoneScoped;
     // Nice startup message
     #ifndef NDEBUG
         printf("=======================================\n");
@@ -259,7 +260,7 @@ void VioManager::feed_measurement_simulation(double timestamp, const std::vector
 
 
 bool VioManager::try_to_initialize() {
-
+    __ZoneScoped;
     // Returns from our initializer
     double time0;
     Eigen::Matrix<double, 4, 1> q_GtoI0;

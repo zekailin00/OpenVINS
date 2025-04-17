@@ -55,8 +55,8 @@ set(CMAKE_CXX_STANDARD_LIBRARIES_INIT "-latomic" CACHE STRING "" FORCE)
 # INFO: some libs from boost doesn't build with RISCV gcc, so only target run_illixr_msckf
 # cmake --install .
 # qemu-riscv64 -L $RISCV/sysroot ./main
-# qemu-riscv64 -L $RISCV/sysroot -g 6969 build/ov_msckf/run_illixr_msckf data/mav0/cam0/data.csv data/mav0/cam1/data.csv data/mav0/imu0/data.csv data/mav0/cam0/data data/mav0/cam1/data
-# qemu-riscv64 -L $RISCV/sysroot build/ov_msckf/run_illixr_msckf data/mav0/cam0/data.csv data/mav0/cam1/data.csv data/mav0/imu0/data.csv data/mav0/cam0/data data/mav0/cam1/data
+# qemu-riscv64 -L $RISCV/sysroot -g 6969 build-riscv/ov_msckf/run_illixr_msckf data/mav0/cam0/data.csv data/mav0/cam1/data.csv data/mav0/imu0/data.csv data/mav0/cam0/data data/mav0/cam1/data
+# qemu-riscv64 -L $RISCV/sysroot build-riscv/ov_msckf/run_illixr_msckf data/mav0/cam0/data.csv data/mav0/cam1/data.csv data/mav0/imu0/data.csv data/mav0/cam0/data data/mav0/cam1/data
 # riscv64-unknown-linux-gnu-gdb build/ov_msckf/run_illixr_msckf
 
 ####### gdb debug commands 3######

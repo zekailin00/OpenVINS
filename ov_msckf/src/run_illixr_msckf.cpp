@@ -141,12 +141,15 @@ VioManagerOptions create_params()
 void load_images(const string &file_name, map<double, string> &rgb_images,
                  vector<double> &timestamps) {
     ifstream file_in;
+    std::cout << "Read images data: " << file_name << std::endl;
     file_in.open(file_name.c_str());
 
+    std::cout << "Is file good?: " << file_in.is_open() << std::endl;
     if (!file_in.is_open())
         throw;
 
     // skip first line
+    int lineCount = 0;
     string s;
     getline(file_in, s);
     while (!file_in.eof()) {
@@ -161,6 +164,13 @@ void load_images(const string &file_name, map<double, string> &rgb_images,
             ss >> rgb_image;
             rgb_image.erase(std::remove(rgb_image.begin(), rgb_image.end(), ','), rgb_image.end());
             rgb_images[t] = rgb_image;
+
+            lineCount++;
+            if (lineCount % 100 == 0)
+            {
+                std::cout << "Read " << lineCount << " lines of images\n";
+                std::cout << "Container size: " << rgb_images.size() << std::endl;
+            }
         }
     }
 }
@@ -168,9 +178,15 @@ void load_images(const string &file_name, map<double, string> &rgb_images,
 void load_imu_data(const string &file_name, map<double, imu_data> &imu_data_vals,
                    vector<double> &timestamps) {
     ifstream file_in;
+    std::cout << "Read imu data: " << file_name << std::endl;
     file_in.open(file_name.c_str());
 
+    std::cout << "Is file good?: " << file_in.is_open() << std::endl;
+    if (!file_in.is_open())
+        throw;
+
     // skip first line
+    int lineCount = 0;
     string s;
     getline(file_in, s);
     while (!file_in.eof()) {
@@ -193,12 +209,23 @@ void load_imu_data(const string &file_name, map<double, imu_data> &imu_data_vals
             imu_vals.linear_acceleration.y = line[5];
             imu_vals.linear_acceleration.z = line[6];
             imu_data_vals[t] = imu_vals;
+
+            lineCount++;
+            if (lineCount % 100 == 0)
+            {
+                std::cout << "Read " << lineCount << " lines of imu data\n";
+                std::cout << "Container size: " << imu_data_vals.size() << std::endl;
+            }
         }
     }
 }
 
 // Main function
 int main(int argc, char** argv) {
+
+#ifdef CMAKE_CROSSCOMPILING
+    __asm__ volatile ("addi x0, x1, 0");
+#endif
 
     if (argc != 6) {
         cerr << "Usage: ./run_serial_msckf path_to_cam0 path_to_cam1 path_to_imu0 path_to_cam0_images path_to_cam1_images" << endl;
@@ -274,14 +301,18 @@ int main(int argc, char** argv) {
             __ZoneScopedN("cv::imread(cam0)");
             prevRow0 = row0;
             // Get the image
+            std::cout << endl << "Loading image at: " << cam0_images_path << "/" << cam0_images.at(row0->first) << endl;
             img0 = cv::imread(cam0_images_path+ "/" + row0->second, cv::IMREAD_COLOR);
-            cout << endl << "Load image at: " << cam0_images_path << "/" << cam0_images.at(row0->first) << endl;
-            cv::cvtColor(img0, img0, cv::COLOR_BGR2GRAY);
+            std::cout << endl << "Loaded image at: " << cam0_images_path << "/" << cam0_images.at(row0->first) << endl;
             if (img0.empty()) {
                 cerr << endl << "Failed to load image at: "
                      << cam0_images_path << "/" << cam0_images.at(row0->first) << endl;
                 return 1;
             }
+
+            std::cout << std::endl << "cvtColor begin\n";
+            cv::cvtColor(img0, img0, cv::COLOR_BGR2GRAY);
+            std::cout << std::endl << "cvtColor end\n";
 
             // Save to our temp variable
             has_left = true;
@@ -395,6 +426,9 @@ int main(int argc, char** argv) {
 
     // // Done!
     cout << "DONE!" << endl;
+#ifdef CMAKE_CROSSCOMPILING
+    __asm__ volatile ("addi x0, x2, 0");
+#endif
     return EXIT_SUCCESS;
 }
 
