@@ -455,6 +455,10 @@ void VioManager::do_feature_propagate_update(double timestamp) {
     // Now that we have a list of features, lets do the EKF update for MSCKF and SLAM!
     //===================================================================================
 
+    std::cout << "\nfeatsup_MSCKF " << featsup_MSCKF.size();
+    std::cout << "\nfeats_maxtracks " << feats_maxtracks.size();
+    std::cout << "\nfeats_slam " << feats_slam.size();
+    std::cout << "\nfeats_lost " << feats_lost.size();
 
     // Pass them to our MSCKF updater
     // NOTE: if we have more then the max, we select the "best" ones (i.e. max tracks) for this update
