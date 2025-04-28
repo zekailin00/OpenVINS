@@ -5,3 +5,7 @@ Build
 .idea
 doxgen_generated
 *.so
+data/
+drops/
+build-riscv/
+ov_msckf_timing.txt

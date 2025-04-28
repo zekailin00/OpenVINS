@@ -301,18 +301,15 @@ int main(int argc, char** argv) {
             __ZoneScopedN("cv::imread(cam0)");
             prevRow0 = row0;
             // Get the image
-            std::cout << endl << "Loading image at: " << cam0_images_path << "/" << cam0_images.at(row0->first) << endl;
+            std::cout <<"Loading cam0 image at: " << cam0_images_path << "/" << cam0_images.at(row0->first) << std::endl;
             img0 = cv::imread(cam0_images_path+ "/" + row0->second, cv::IMREAD_COLOR);
-            std::cout << endl << "Loaded image at: " << cam0_images_path << "/" << cam0_images.at(row0->first) << endl;
             if (img0.empty()) {
-                cerr << endl << "Failed to load image at: "
-                     << cam0_images_path << "/" << cam0_images.at(row0->first) << endl;
+                cerr << std::endl << "Failed to load image at: "
+                     << cam0_images_path << "/" << cam0_images.at(row0->first) << std::endl;
                 return 1;
             }
 
-            std::cout << std::endl << "cvtColor begin\n";
             cv::cvtColor(img0, img0, cv::COLOR_BGR2GRAY);
-            std::cout << std::endl << "cvtColor end\n";
 
             // Save to our temp variable
             has_left = true;
@@ -326,11 +323,11 @@ int main(int argc, char** argv) {
             prevRow1 = row1;
             // Get the image
             img1 = cv::imread(cam1_images_path+ "/" + row1->second, cv::IMREAD_COLOR);
-            cout << endl << "Load image at: " << cam1_images_path << "/" << cam1_images.at(timem) << endl;
+            std::cout << "Loading cam1 image at: " << cam1_images_path << "/" << cam1_images.at(timem) << std::endl;
             cv::cvtColor(img1, img1, cv::COLOR_BGR2GRAY);
             if (img1.empty()) {
-                cerr << endl << "Failed to load image at: "
-                     << cam1_images_path << "/" << cam1_images.at(timem) << endl;
+                cerr << std::endl << "Failed to load image at: "
+                     << cam1_images_path << "/" << cam1_images.at(timem) << std::endl;
                 return 1;
             }
 
@@ -376,8 +373,11 @@ int main(int argc, char** argv) {
                 //biases are pretty bad normally, so zero them
                 //imustate.block(11,0,6,1).setZero();
                 sys->initialize_with_gt(imustate);
-            } else if(gt_states.empty() || sys->initialized()) {
+            } else if(gt_states.empty() || sys->initialized())
+            {
+                std::cout << "Start feed_measurement_stereo: " << num_images << std::endl;
                 sys->feed_measurement_stereo(time_buffer, img0_buffer, img1_buffer, 0, 1);
+                std::cout << "End feed_measurement_stereo\n\n\n\n";
             }
             // reset bools
             has_left = false;
@@ -393,13 +393,15 @@ int main(int argc, char** argv) {
             Eigen::Vector4d quat = state->_imu->quat();
             Eigen::Vector3d vel = state->_imu->vel();
             Eigen::Vector3d pose = state->_imu->pos();
-            std::cout << std::endl << std::endl << std::endl << std::endl << "-------END OF FRAME ------\n";
-            std::cout << "quat: " << quat << std::endl;
-            std::cout << "vel: " << vel << std::endl;
-            std::cout << "pose: " << pose << std::endl;
+
+            // std::cout << "-------END OF FRAME ------\n";
+            // std::cout << "quat: " << quat.transpose() << std::endl;
+            // std::cout << "vel: " << vel.transpose() << std::endl;
+            // std::cout << "pose: " << pose.transpose() << std::endl;
+            // std::cout << "-------END OF FRAME ------\n\n\n";
         }
 
-        if (num_images == 100)
+        if (num_images == 300)
            break;
     }
 

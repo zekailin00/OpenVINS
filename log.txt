@@ -1,0 +1,4407 @@
+Read images data: data/mav0/cam0/data.csv
+Is file good?: 1
+Read 100 lines of images
+Container size: 100
+Read 200 lines of images
+Container size: 200
+Read 300 lines of images
+Container size: 300
+Read 400 lines of images
+Container size: 400
+Read 500 lines of images
+Container size: 500
+Read 600 lines of images
+Container size: 600
+Read 700 lines of images
+Container size: 700
+Read 800 lines of images
+Container size: 800
+Read 900 lines of images
+Container size: 900
+Read 1000 lines of images
+Container size: 1000
+Read 1100 lines of images
+Container size: 1100
+Read 1200 lines of images
+Container size: 1200
+Read 1300 lines of images
+Container size: 1300
+Read 1400 lines of images
+Container size: 1400
+Read 1500 lines of images
+Container size: 1500
+Read 1600 lines of images
+Container size: 1600
+Read 1700 lines of images
+Container size: 1700
+Read images data: data/mav0/cam1/data.csv
+Is file good?: 1
+Read 100 lines of images
+Container size: 100
+Read 200 lines of images
+Container size: 200
+Read 300 lines of images
+Container size: 300
+Read 400 lines of images
+Container size: 400
+Read 500 lines of images
+Container size: 500
+Read 600 lines of images
+Container size: 600
+Read 700 lines of images
+Container size: 700
+Read 800 lines of images
+Container size: 800
+Read 900 lines of images
+Container size: 900
+Read 1000 lines of images
+Container size: 1000
+Read 1100 lines of images
+Container size: 1100
+Read 1200 lines of images
+Container size: 1200
+Read 1300 lines of images
+Container size: 1300
+Read 1400 lines of images
+Container size: 1400
+Read 1500 lines of images
+Container size: 1500
+Read 1600 lines of images
+Container size: 1600
+Read 1700 lines of images
+Container size: 1700
+Read imu data: data/mav0/imu0/data.csv
+Is file good?: 1
+Read 100 lines of imu data
+Container size: 100
+Read 200 lines of imu data
+Container size: 200
+Read 300 lines of imu data
+Container size: 300
+Read 400 lines of imu data
+Container size: 400
+Read 500 lines of imu data
+Container size: 500
+Read 600 lines of imu data
+Container size: 600
+Read 700 lines of imu data
+Container size: 700
+Read 800 lines of imu data
+Container size: 800
+Read 900 lines of imu data
+Container size: 900
+Read 1000 lines of imu data
+Container size: 1000
+Read 1100 lines of imu data
+Container size: 1100
+Read 1200 lines of imu data
+Container size: 1200
+Read 1300 lines of imu data
+Container size: 1300
+Read 1400 lines of imu data
+Container size: 1400
+Read 1500 lines of imu data
+Container size: 1500
+Read 1600 lines of imu data
+Container size: 1600
+Read 1700 lines of imu data
+Container size: 1700
+Read 1800 lines of imu data
+Container size: 1800
+Read 1900 lines of imu data
+Container size: 1900
+Read 2000 lines of imu data
+Container size: 2000
+Read 2100 lines of imu data
+Container size: 2100
+Read 2200 lines of imu data
+Container size: 2200
+Read 2300 lines of imu data
+Container size: 2300
+Read 2400 lines of imu data
+Container size: 2400
+Read 2500 lines of imu data
+Container size: 2500
+Read 2600 lines of imu data
+Container size: 2600
+Read 2700 lines of imu data
+Container size: 2700
+Read 2800 lines of imu data
+Container size: 2800
+Read 2900 lines of imu data
+Container size: 2900
+Read 3000 lines of imu data
+Container size: 3000
+Read 3100 lines of imu data
+Container size: 3100
+Read 3200 lines of imu data
+Container size: 3200
+Read 3300 lines of imu data
+Container size: 3300
+Read 3400 lines of imu data
+Container size: 3400
+Read 3500 lines of imu data
+Container size: 3500
+Read 3600 lines of imu data
+Container size: 3600
+Read 3700 lines of imu data
+Container size: 3700
+Read 3800 lines of imu data
+Container size: 3800
+Read 3900 lines of imu data
+Container size: 3900
+Read 4000 lines of imu data
+Container size: 4000
+Read 4100 lines of imu data
+Container size: 4100
+Read 4200 lines of imu data
+Container size: 4200
+Read 4300 lines of imu data
+Container size: 4300
+Read 4400 lines of imu data
+Container size: 4400
+Read 4500 lines of imu data
+Container size: 4500
+Read 4600 lines of imu data
+Container size: 4600
+Read 4700 lines of imu data
+Container size: 4700
+Read 4800 lines of imu data
+Container size: 4800
+Read 4900 lines of imu data
+Container size: 4900
+Read 5000 lines of imu data
+Container size: 5000
+Read 5100 lines of imu data
+Container size: 5100
+Read 5200 lines of imu data
+Container size: 5200
+Read 5300 lines of imu data
+Container size: 5300
+Read 5400 lines of imu data
+Container size: 5400
+Read 5500 lines of imu data
+Container size: 5500
+Read 5600 lines of imu data
+Container size: 5600
+Read 5700 lines of imu data
+Container size: 5700
+Read 5800 lines of imu data
+Container size: 5800
+Read 5900 lines of imu data
+Container size: 5900
+Read 6000 lines of imu data
+Container size: 6000
+Read 6100 lines of imu data
+Container size: 6100
+Read 6200 lines of imu data
+Container size: 6200
+Read 6300 lines of imu data
+Container size: 6300
+Read 6400 lines of imu data
+Container size: 6400
+Read 6500 lines of imu data
+Container size: 6500
+Read 6600 lines of imu data
+Container size: 6600
+Read 6700 lines of imu data
+Container size: 6700
+Read 6800 lines of imu data
+Container size: 6800
+Read 6900 lines of imu data
+Container size: 6900
+Read 7000 lines of imu data
+Container size: 7000
+Read 7100 lines of imu data
+Container size: 7100
+Read 7200 lines of imu data
+Container size: 7200
+Read 7300 lines of imu data
+Container size: 7300
+Read 7400 lines of imu data
+Container size: 7400
+Read 7500 lines of imu data
+Container size: 7500
+Read 7600 lines of imu data
+Container size: 7600
+Read 7700 lines of imu data
+Container size: 7700
+Read 7800 lines of imu data
+Container size: 7800
+Read 7900 lines of imu data
+Container size: 7900
+Read 8000 lines of imu data
+Container size: 8000
+Read 8100 lines of imu data
+Container size: 8100
+Read 8200 lines of imu data
+Container size: 8200
+Read 8300 lines of imu data
+Container size: 8300
+Read 8400 lines of imu data
+Container size: 8400
+Read 8500 lines of imu data
+Container size: 8500
+Read 8600 lines of imu data
+Container size: 8600
+Read 8700 lines of imu data
+Container size: 8700
+Read 8800 lines of imu data
+Container size: 8800
+Read 8900 lines of imu data
+Container size: 8900
+Read 9000 lines of imu data
+Container size: 9000
+Read 9100 lines of imu data
+Container size: 9100
+Read 9200 lines of imu data
+Container size: 9200
+Read 9300 lines of imu data
+Container size: 9300
+Read 9400 lines of imu data
+Container size: 9400
+Read 9500 lines of imu data
+Container size: 9500
+Read 9600 lines of imu data
+Container size: 9600
+Read 9700 lines of imu data
+Container size: 9700
+Read 9800 lines of imu data
+Container size: 9800
+Read 9900 lines of imu data
+Container size: 9900
+Read 10000 lines of imu data
+Container size: 10000
+Read 10100 lines of imu data
+Container size: 10100
+Read 10200 lines of imu data
+Container size: 10200
+Read 10300 lines of imu data
+Container size: 10300
+Read 10400 lines of imu data
+Container size: 10400
+Read 10500 lines of imu data
+Container size: 10500
+Read 10600 lines of imu data
+Container size: 10600
+Read 10700 lines of imu data
+Container size: 10700
+Read 10800 lines of imu data
+Container size: 10800
+Read 10900 lines of imu data
+Container size: 10900
+Read 11000 lines of imu data
+Container size: 11000
+Read 11100 lines of imu data
+Container size: 11100
+Read 11200 lines of imu data
+Container size: 11200
+Read 11300 lines of imu data
+Container size: 11300
+Read 11400 lines of imu data
+Container size: 11400
+Read 11500 lines of imu data
+Container size: 11500
+Read 11600 lines of imu data
+Container size: 11600
+Read 11700 lines of imu data
+Container size: 11700
+Read 11800 lines of imu data
+Container size: 11800
+Read 11900 lines of imu data
+Container size: 11900
+Read 12000 lines of imu data
+Container size: 12000
+Read 12100 lines of imu data
+Container size: 12100
+Read 12200 lines of imu data
+Container size: 12200
+Read 12300 lines of imu data
+Container size: 12300
+Read 12400 lines of imu data
+Container size: 12400
+Read 12500 lines of imu data
+Container size: 12500
+Read 12600 lines of imu data
+Container size: 12600
+Read 12700 lines of imu data
+Container size: 12700
+Read 12800 lines of imu data
+Container size: 12800
+Read 12900 lines of imu data
+Container size: 12900
+Read 13000 lines of imu data
+Container size: 13000
+Read 13100 lines of imu data
+Container size: 13100
+Read 13200 lines of imu data
+Container size: 13200
+Read 13300 lines of imu data
+Container size: 13300
+Read 13400 lines of imu data
+Container size: 13400
+Read 13500 lines of imu data
+Container size: 13500
+Read 13600 lines of imu data
+Container size: 13600
+Read 13700 lines of imu data
+Container size: 13700
+Read 13800 lines of imu data
+Container size: 13800
+Read 13900 lines of imu data
+Container size: 13900
+Read 14000 lines of imu data
+Container size: 14000
+Read 14100 lines of imu data
+Container size: 14100
+Read 14200 lines of imu data
+Container size: 14200
+Read 14300 lines of imu data
+Container size: 14300
+Read 14400 lines of imu data
+Container size: 14400
+Read 14500 lines of imu data
+Container size: 14500
+Read 14600 lines of imu data
+Container size: 14600
+Read 14700 lines of imu data
+Container size: 14700
+Read 14800 lines of imu data
+Container size: 14800
+Read 14900 lines of imu data
+Container size: 14900
+Read 15000 lines of imu data
+Container size: 15000
+Read 15100 lines of imu data
+Container size: 15100
+Read 15200 lines of imu data
+Container size: 15200
+Read 15300 lines of imu data
+Container size: 15300
+Read 15400 lines of imu data
+Container size: 15400
+Read 15500 lines of imu data
+Container size: 15500
+Read 15600 lines of imu data
+Container size: 15600
+Read 15700 lines of imu data
+Container size: 15700
+Read 15800 lines of imu data
+Container size: 15800
+Read 15900 lines of imu data
+Container size: 15900
+Read 16000 lines of imu data
+Container size: 16000
+Read 16100 lines of imu data
+Container size: 16100
+Read 16200 lines of imu data
+Container size: 16200
+Read 16300 lines of imu data
+Container size: 16300
+Read 16400 lines of imu data
+Container size: 16400
+Read 16500 lines of imu data
+Container size: 16500
+Read 16600 lines of imu data
+Container size: 16600
+Read 16700 lines of imu data
+Container size: 16700
+Read 16800 lines of imu data
+Container size: 16800
+Read 16900 lines of imu data
+Container size: 16900
+Read 17000 lines of imu data
+Container size: 17000
+Read 17100 lines of imu data
+Container size: 17100
+cam0 images: 1710  cam1 images: 1711  imu0 data: 17100
+Finished Loading Data!!!!
+=======================================
+OPENVINS ON-MANIFOLD EKF IS STARTING
+=======================================
+ESTIMATOR PARAMETERS:
+	- use_fej: 1
+	- use_imuavg: 1
+	- use_rk4int: 1
+	- calib_cam_extrinsics: 1
+	- calib_cam_intrinsics: 1
+	- calib_cam_timeoffset: 1
+	- max_clones: 11
+	- max_slam: 50
+	- max_slam_in_update: 25
+	- max_msckf_in_update: 999
+	- max_aruco: 1024
+	- max_cameras: 2
+	- feat_rep_msckf: GLOBAL_3D
+	- feat_rep_slam: ANCHORED_FULL_INVERSE_DEPTH
+	- feat_rep_aruco: ANCHORED_FULL_INVERSE_DEPTH
+	- gravity: 0.000, 0.000, 9.810
+	- gravity: 3.0
+	- init_window_time: 0.75
+	- init_imu_thresh: 1.50
+	- record timing?: 1
+	- record timing filepath: ov_msckf_timing.txt
+NOISE PARAMETERS:
+	- gyroscope_noise_density: 0.000170
+	- accelerometer_noise_density: 0.00200
+	- gyroscope_random_walk: 0.0000194
+	- accelerometer_random_walk: 0.003000
+	Updater MSCKF Feats:
+	- chi2_multipler: 1
+	- sigma_pix: 1.00
+	Updater SLAM Feats:
+	- chi2_multipler: 5
+	- sigma_pix: 1.00
+	Updater ARUCO Tags:
+	- chi2_multipler: 5
+	- sigma_pix: 1.00
+STATE PARAMETERS:
+	- calib_camimu_dt: 0.0000
+cam_0_fisheye:0
+cam_0_wh:
+752 x 480
+cam_0_intrinsic(0:3):
+458.654 457.296 367.215 248.375
+cam_0_intrinsic(4:7):
+  -0.283408   0.0739591  0.00019359 1.76187e-05
+cam_0_extrinsic(0:3):
+-0.00770718   0.0104993    0.701753    0.712301
+cam_0_extrinsic(4:6):
+ 0.0652229 -0.0207064 -0.0080546
+T_C0toI:
+ 0.0148655  -0.999881  0.0041403 -0.0216401
+  0.999557  0.0149672  0.0257155  -0.064677
+-0.0257744 0.00375619   0.999661 0.00981073
+         0          0          0          1
+
+cam_1_fisheye:0
+cam_1_wh:
+752 x 480
+cam_1_intrinsic(0:3):
+457.587 456.134 379.999 255.238
+cam_1_intrinsic(4:7):
+   -0.283684    0.0745128  -0.00010473 -3.55591e-05
+cam_1_extrinsic(0:3):
+-0.00255024   0.0153239    0.702487    0.711527
+cam_1_extrinsic(4:6):
+  -0.044902  -0.0205698 -0.00863814
+T_C1toI:
+ 0.0125553  -0.999755  0.0182238 -0.0198436
+  0.999599  0.0130119  0.0251588  0.0453689
+-0.0253898  0.0179006   0.999517 0.00786212
+         0          0          0          1
+
+FEATURE TRACKING PARAMETERS:
+	- num_pts: 150
+	- use_stereo: 1
+	- max_runs: 20
+	- init_lamda: 0.001
+	- max_lamda: 10000000000.000
+	- min_dx: 0.0000010
+	- min_dcost: 0.0000010
+	- lam_mult: 10.000
+	- min_dist: 0.250
+	- max_dist: 40.000
+	- max_baseline: 40.000
+	- max_cond_number: 1000.000
+[33m[STATS]: found old file found, deleted...
+[0m
+Loading image at: data/mav0/cam0/data/1403715523962142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715523962142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715523912143104.png
+
+Loading image at: data/mav0/cam0/data/1403715524012143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715524012143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715523962142976.png
+NOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715524062142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715524062142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715524012143104.png
+[36m[TIME-KLT]: 0.7070 ms for pyramid
+[0m[36m[TIME-KLT]: 0.6900 ms for detection
+[0m[36m[TIME-KLT]: 1.4950 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.2230 ms for feature DB update (152 features)
+[0m[36m[TIME-KLT]: 5.1170 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715524112143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715524112143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715524062142976.png
+[36m[TIME-KLT]: 0.6700 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0390 ms for detection
+[0m[36m[TIME-KLT]: 1.1360 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0030 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.7870 ms for feature DB update (151 features)
+[0m[36m[TIME-KLT]: 3.6350 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715524162142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715524162142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715524112143104.png
+[36m[TIME-KLT]: 0.6860 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0410 ms for detection
+[0m[36m[TIME-KLT]: 0.8340 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.8640 ms for feature DB update (151 features)
+[0m[36m[TIME-KLT]: 3.4260 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715524212143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715524212143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715524162142976.png
+[36m[TIME-KLT]: 0.6090 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0310 ms for detection
+[0m[36m[TIME-KLT]: 0.7610 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.6280 ms for feature DB update (151 features)
+[0m[36m[TIME-KLT]: 3.0310 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715524262142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715524262142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715524212143104.png
+[36m[TIME-KLT]: 0.7860 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0340 ms for detection
+[0m[36m[TIME-KLT]: 0.7340 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0030 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.5620 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 4.1190 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715524312143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715524312143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715524262142976.png
+[36m[TIME-KLT]: 0.7020 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0310 ms for detection
+[0m[36m[TIME-KLT]: 0.6560 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.6640 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 3.0540 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715524362142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715524362142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715524312143104.png
+[36m[TIME-KLT]: 0.5720 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0310 ms for detection
+[0m[36m[TIME-KLT]: 0.6930 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.7420 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 3.0390 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715524412143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715524412143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715524362142976.png
+[36m[TIME-KLT]: 0.7420 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0270 ms for detection
+[0m[36m[TIME-KLT]: 0.8390 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.9370 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 3.5460 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715524462142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715524462142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715524412143104.png
+[36m[TIME-KLT]: 0.6660 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0330 ms for detection
+[0m[36m[TIME-KLT]: 0.8030 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.8650 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 3.3690 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715524512143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715524512143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715524462142976.png
+[36m[TIME-KLT]: 0.5590 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0310 ms for detection
+[0m[36m[TIME-KLT]: 0.6190 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.6080 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 2.8180 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715524562142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715524562142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715524512143104.png
+[36m[TIME-KLT]: 0.5630 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0320 ms for detection
+[0m[36m[TIME-KLT]: 0.6120 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.5950 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 2.8030 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715524612143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715524612143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715524562142976.png
+[36m[TIME-KLT]: 0.7850 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0320 ms for detection
+[0m[36m[TIME-KLT]: 0.7020 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.9970 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 3.5180 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715524662142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715524662142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715524612143104.png
+[36m[TIME-KLT]: 0.5290 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0290 ms for detection
+[0m[36m[TIME-KLT]: 0.8100 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.5910 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 2.9610 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715524712143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715524712143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715524662142976.png
+[36m[TIME-KLT]: 0.6010 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0260 ms for detection
+[0m[36m[TIME-KLT]: 0.6830 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.6060 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 2.9170 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.0495 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715524762142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715524762142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715524712143104.png
+[36m[TIME-KLT]: 0.5060 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0240 ms for detection
+[0m[36m[TIME-KLT]: 0.6430 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.6520 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 2.8260 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.0476 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715524812143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715524812143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715524762142976.png
+[36m[TIME-KLT]: 0.5340 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0300 ms for detection
+[0m[36m[TIME-KLT]: 0.6910 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.7380 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 2.9950 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.0480 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715524862142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715524862142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715524812143104.png
+[36m[TIME-KLT]: 0.5610 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0340 ms for detection
+[0m[36m[TIME-KLT]: 0.7340 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.3140 ms for feature DB update (138 features)
+[0m[36m[TIME-KLT]: 3.6440 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.1184 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715524912143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715524912143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715524862142976.png
+[36m[TIME-KLT]: 0.6300 ms for pyramid
+[0m[36m[TIME-KLT]: 1.0530 ms for detection
+[0m[36m[TIME-KLT]: 1.5260 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.7380 ms for feature DB update (137 features)
+[0m[36m[TIME-KLT]: 4.9490 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.2950 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715524962142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715524962142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715524912143104.png
+[36m[TIME-KLT]: 0.5670 ms for pyramid
+[0m[36m[TIME-KLT]: 0.8160 ms for detection
+[0m[36m[TIME-KLT]: 0.9620 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0030 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.7800 ms for feature DB update (138 features)
+[0m[36m[TIME-KLT]: 4.1280 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.3532 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715525012143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715525012143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715524962142976.png
+[36m[TIME-KLT]: 0.6320 ms for pyramid
+[0m[36m[TIME-KLT]: 1.0250 ms for detection
+[0m[36m[TIME-KLT]: 1.1230 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.8860 ms for feature DB update (140 features)
+[0m[36m[TIME-KLT]: 4.6670 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.3742 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715525062142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715525062142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715525012143104.png
+[36m[TIME-KLT]: 0.6560 ms for pyramid
+[0m[36m[TIME-KLT]: 0.7400 ms for detection
+[0m[36m[TIME-KLT]: 2.0280 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0090 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.7090 ms for feature DB update (140 features)
+[0m[36m[TIME-KLT]: 5.1420 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.4046 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715525112143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715525112143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715525062142976.png
+[36m[TIME-KLT]: 0.5700 ms for pyramid
+[0m[36m[TIME-KLT]: 1.3580 ms for detection
+[0m[36m[TIME-KLT]: 1.1700 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.0360 ms for feature DB update (140 features)
+[0m[36m[TIME-KLT]: 5.1350 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.4746 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715525162142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715525162142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715525112143104.png
+[36m[TIME-KLT]: 0.5720 ms for pyramid
+[0m[36m[TIME-KLT]: 0.7070 ms for detection
+[0m[36m[TIME-KLT]: 1.1840 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.8830 ms for feature DB update (140 features)
+[0m[36m[TIME-KLT]: 4.3480 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.5045 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715525212143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715525212143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715525162142976.png
+[36m[TIME-KLT]: 0.6550 ms for pyramid
+[0m[36m[TIME-KLT]: 0.9490 ms for detection
+[0m[36m[TIME-KLT]: 1.2650 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.8690 ms for feature DB update (140 features)
+[0m[36m[TIME-KLT]: 4.7390 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.5202 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715525262142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715525262142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715525212143104.png
+[36m[TIME-KLT]: 0.4950 ms for pyramid
+[0m[36m[TIME-KLT]: 0.8870 ms for detection
+[0m[36m[TIME-KLT]: 1.6850 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0050 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.6880 ms for feature DB update (141 features)
+[0m[36m[TIME-KLT]: 4.7600 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.5331 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715525312143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715525312143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715525262142976.png
+[36m[TIME-KLT]: 0.7010 ms for pyramid
+[0m[36m[TIME-KLT]: 0.8630 ms for detection
+[0m[36m[TIME-KLT]: 1.9810 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0060 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.2080 ms for feature DB update (142 features)
+[0m[36m[TIME-KLT]: 5.7590 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.5795 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715525362142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715525362142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715525312143104.png
+[36m[TIME-KLT]: 0.5780 ms for pyramid
+[0m[36m[TIME-KLT]: 1.3110 ms for detection
+[0m[36m[TIME-KLT]: 1.8970 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0030 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.8050 ms for feature DB update (144 features)
+[0m[36m[TIME-KLT]: 5.5940 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.6031 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715525412143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715525412143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715525362142976.png
+[36m[TIME-KLT]: 0.6570 ms for pyramid
+[0m[36m[TIME-KLT]: 2.7310 ms for detection
+[0m[36m[TIME-KLT]: 1.4150 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0040 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.1760 ms for feature DB update (145 features)
+[0m[36m[TIME-KLT]: 6.9830 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.6177 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715525462142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715525462142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715525412143104.png
+[36m[TIME-KLT]: 0.6530 ms for pyramid
+[0m[36m[TIME-KLT]: 0.8660 ms for detection
+[0m[36m[TIME-KLT]: 1.5350 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0030 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.0470 ms for feature DB update (145 features)
+[0m[36m[TIME-KLT]: 5.1040 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.6247 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715525512143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715525512143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715525462142976.png
+[36m[TIME-KLT]: 0.5290 ms for pyramid
+[0m[36m[TIME-KLT]: 0.7240 ms for detection
+[0m[36m[TIME-KLT]: 1.6220 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0030 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.4290 ms for feature DB update (144 features)
+[0m[36m[TIME-KLT]: 5.3070 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.6616 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715525562142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715525562142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715525512143104.png
+[36m[TIME-KLT]: 0.5750 ms for pyramid
+[0m[36m[TIME-KLT]: 0.6770 ms for detection
+[0m[36m[TIME-KLT]: 1.1310 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.8120 ms for feature DB update (144 features)
+[0m[36m[TIME-KLT]: 4.1970 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.6837 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715525612143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715525612143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715525562142976.png
+[36m[TIME-KLT]: 0.5710 ms for pyramid
+[0m[36m[TIME-KLT]: 0.7540 ms for detection
+[0m[36m[TIME-KLT]: 1.0290 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.8490 ms for feature DB update (145 features)
+[0m[36m[TIME-KLT]: 4.2040 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.6899 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715525662142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715525662142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715525612143104.png
+[36m[TIME-KLT]: 0.5410 ms for pyramid
+[0m[36m[TIME-KLT]: 1.0320 ms for detection
+[0m[36m[TIME-KLT]: 1.6680 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.6390 ms for feature DB update (144 features)
+[0m[36m[TIME-KLT]: 5.8820 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.6429 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715525712143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715525712143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715525662142976.png
+[36m[TIME-KLT]: 0.7050 ms for pyramid
+[0m[36m[TIME-KLT]: 1.3070 ms for detection
+[0m[36m[TIME-KLT]: 1.6150 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0030 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.8810 ms for feature DB update (144 features)
+[0m[36m[TIME-KLT]: 5.5110 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.6708 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715525762142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715525762142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715525712143104.png
+[36m[TIME-KLT]: 0.5880 ms for pyramid
+[0m[36m[TIME-KLT]: 0.8370 ms for detection
+[0m[36m[TIME-KLT]: 2.2280 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0040 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.9960 ms for feature DB update (147 features)
+[0m[36m[TIME-KLT]: 5.6530 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.6799 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715525812143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715525812143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715525762142976.png
+[36m[TIME-KLT]: 0.6370 ms for pyramid
+[0m[36m[TIME-KLT]: 0.8550 ms for detection
+[0m[36m[TIME-KLT]: 2.0340 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0040 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.1260 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 5.6560 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.6798 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715525862142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715525862142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715525812143104.png
+[36m[TIME-KLT]: 0.5910 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0320 ms for detection
+[0m[36m[TIME-KLT]: 1.6060 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0050 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.4900 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 4.7240 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.6393 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715525912143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715525912143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715525862142976.png
+[36m[TIME-KLT]: 0.6500 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0280 ms for detection
+[0m[36m[TIME-KLT]: 0.8970 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.3620 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 3.9390 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.6680 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715525962142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715525962142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715525912143104.png
+[36m[TIME-KLT]: 0.5990 ms for pyramid
+[0m[36m[TIME-KLT]: 1.4520 ms for detection
+[0m[36m[TIME-KLT]: 2.6320 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0050 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.0620 ms for feature DB update (148 features)
+[0m[36m[TIME-KLT]: 6.7500 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.6757 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715526012143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715526012143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715525962142976.png
+[36m[TIME-KLT]: 0.6590 ms for pyramid
+[0m[36m[TIME-KLT]: 0.8540 ms for detection
+[0m[36m[TIME-KLT]: 2.0240 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0050 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.1670 ms for feature DB update (147 features)
+[0m[36m[TIME-KLT]: 5.7090 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.6777 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715526062142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715526062142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715526012143104.png
+[36m[TIME-KLT]: 0.7730 ms for pyramid
+[0m[36m[TIME-KLT]: 1.5570 ms for detection
+[0m[36m[TIME-KLT]: 1.0230 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 3.0710 ms for feature DB update (147 features)
+[0m[36m[TIME-KLT]: 6.4260 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.6445 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715526112143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715526112143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715526062142976.png
+[36m[TIME-KLT]: 0.6460 ms for pyramid
+[0m[36m[TIME-KLT]: 0.7580 ms for detection
+[0m[36m[TIME-KLT]: 1.4180 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.9140 ms for feature DB update (148 features)
+[0m[36m[TIME-KLT]: 4.7380 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.6343 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715526162142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715526162142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715526112143104.png
+[36m[TIME-KLT]: 0.6660 ms for pyramid
+[0m[36m[TIME-KLT]: 2.3370 ms for detection
+[0m[36m[TIME-KLT]: 3.2510 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.3000 ms for feature DB update (147 features)
+[0m[36m[TIME-KLT]: 8.5560 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.6247 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715526212143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715526212143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715526162142976.png
+[36m[TIME-KLT]: 0.5960 ms for pyramid
+[0m[36m[TIME-KLT]: 2.3370 ms for detection
+[0m[36m[TIME-KLT]: 1.1100 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.4660 ms for feature DB update (147 features)
+[0m[36m[TIME-KLT]: 6.5100 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.6222 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715526262142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715526262142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715526212143104.png
+[36m[TIME-KLT]: 0.6030 ms for pyramid
+[0m[36m[TIME-KLT]: 1.4420 ms for detection
+[0m[36m[TIME-KLT]: 2.3840 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.1800 ms for feature DB update (147 features)
+[0m[36m[TIME-KLT]: 6.6100 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.5830 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715526312143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715526312143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715526262142976.png
+[36m[TIME-KLT]: 0.7270 ms for pyramid
+[0m[36m[TIME-KLT]: 2.0250 ms for detection
+[0m[36m[TIME-KLT]: 2.4490 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.0530 ms for feature DB update (147 features)
+[0m[36m[TIME-KLT]: 7.2560 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.5607 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715526362142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715526362142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715526312143104.png
+[36m[TIME-KLT]: 0.6820 ms for pyramid
+[0m[36m[TIME-KLT]: 0.7290 ms for detection
+[0m[36m[TIME-KLT]: 1.8150 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0040 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.8960 ms for feature DB update (148 features)
+[0m[36m[TIME-KLT]: 5.1260 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.5464 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715526412143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715526412143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715526362142976.png
+[36m[TIME-KLT]: 0.6440 ms for pyramid
+[0m[36m[TIME-KLT]: 0.7020 ms for detection
+[0m[36m[TIME-KLT]: 1.8840 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.7920 ms for feature DB update (147 features)
+[0m[36m[TIME-KLT]: 5.0240 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.5417 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715526462142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715526462142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715526412143104.png
+[36m[TIME-KLT]: 0.5590 ms for pyramid
+[0m[36m[TIME-KLT]: 0.8420 ms for detection
+[0m[36m[TIME-KLT]: 1.8480 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0030 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.9540 ms for feature DB update (148 features)
+[0m[36m[TIME-KLT]: 5.2060 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.4758 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715526512143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715526512143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715526462142976.png
+[36m[TIME-KLT]: 0.5220 ms for pyramid
+[0m[36m[TIME-KLT]: 0.7150 ms for detection
+[0m[36m[TIME-KLT]: 1.3150 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0030 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.8910 ms for feature DB update (148 features)
+[0m[36m[TIME-KLT]: 4.4460 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.4539 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715526562142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715526562142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715526512143104.png
+[36m[TIME-KLT]: 0.5440 ms for pyramid
+[0m[36m[TIME-KLT]: 0.7250 ms for detection
+[0m[36m[TIME-KLT]: 1.7810 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0090 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.1620 ms for feature DB update (148 features)
+[0m[36m[TIME-KLT]: 5.2210 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.4322 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715526612143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715526612143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715526562142976.png
+[36m[TIME-KLT]: 0.6990 ms for pyramid
+[0m[36m[TIME-KLT]: 0.8940 ms for detection
+[0m[36m[TIME-KLT]: 2.6510 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.5640 ms for feature DB update (148 features)
+[0m[36m[TIME-KLT]: 6.8100 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.4219 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715526662142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715526662142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715526612143104.png
+[36m[TIME-KLT]: 0.5630 ms for pyramid
+[0m[36m[TIME-KLT]: 0.8510 ms for detection
+[0m[36m[TIME-KLT]: 2.4740 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0040 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.1900 ms for feature DB update (148 features)
+[0m[36m[TIME-KLT]: 6.0820 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.3368 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715526712143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715526712143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715526662142976.png
+[36m[TIME-KLT]: 0.6730 ms for pyramid
+[0m[36m[TIME-KLT]: 0.7100 ms for detection
+[0m[36m[TIME-KLT]: 1.9810 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0000 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.7300 ms for feature DB update (148 features)
+[0m[36m[TIME-KLT]: 5.0940 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.2979 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715526762142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715526762142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715526712143104.png
+[36m[TIME-KLT]: 0.5800 ms for pyramid
+[0m[36m[TIME-KLT]: 0.7850 ms for detection
+[0m[36m[TIME-KLT]: 2.2610 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0050 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.0150 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 5.6460 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.2698 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715526812143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715526812143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715526762142976.png
+[36m[TIME-KLT]: 0.9330 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0370 ms for detection
+[0m[36m[TIME-KLT]: 2.1220 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.9670 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 6.0600 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.2568 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715526862142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715526862142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715526812143104.png
+[36m[TIME-KLT]: 0.7840 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0360 ms for detection
+[0m[36m[TIME-KLT]: 3.1530 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0030 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.6300 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 6.6060 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.2284 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715526912143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715526912143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715526862142976.png
+[36m[TIME-KLT]: 0.6280 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0350 ms for detection
+[0m[36m[TIME-KLT]: 2.5750 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.7580 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 5.9980 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.2207 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715526962142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715526962142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715526912143104.png
+[36m[TIME-KLT]: 0.8310 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0620 ms for detection
+[0m[36m[TIME-KLT]: 3.7640 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 3.2260 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 7.8850 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.2384 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715527012143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715527012143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715526962142976.png
+[36m[TIME-KLT]: 0.6520 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0300 ms for detection
+[0m[36m[TIME-KLT]: 2.0550 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0050 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.2560 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 4.9980 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.2813 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715527062142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715527062142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715527012143104.png
+[36m[TIME-KLT]: 1.1930 ms for pyramid
+[0m[36m[TIME-KLT]: 0.2210 ms for detection
+[0m[36m[TIME-KLT]: 3.6810 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0040 ms for stereo klt
+[0m[36m[TIME-KLT]: 4.5500 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 9.6490 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.3003 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715527112143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715527112143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715527062142976.png
+[36m[TIME-KLT]: 0.7800 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0330 ms for detection
+[0m[36m[TIME-KLT]: 2.1360 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.3130 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 5.2640 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.3098 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715527162142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715527162142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715527112143104.png
+[36m[TIME-KLT]: 0.8430 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0390 ms for detection
+[0m[36m[TIME-KLT]: 3.3990 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 3.0450 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 7.3270 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.3099 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715527212143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715527212143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715527162142976.png
+[36m[TIME-KLT]: 0.7160 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0360 ms for detection
+[0m[36m[TIME-KLT]: 2.6670 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0050 ms for stereo klt
+[0m[36m[TIME-KLT]: 3.0890 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 6.5130 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.3084 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715527262142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715527262142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715527212143104.png
+[36m[TIME-KLT]: 0.7690 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0380 ms for detection
+[0m[36m[TIME-KLT]: 0.9400 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 3.3590 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 5.1070 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.3058 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715527312143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715527312143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715527262142976.png
+[36m[TIME-KLT]: 0.5400 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0340 ms for detection
+[0m[36m[TIME-KLT]: 0.7830 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0000 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.9450 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 3.3020 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.3053 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715527362142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715527362142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715527312143104.png
+[36m[TIME-KLT]: 0.5110 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0280 ms for detection
+[0m[36m[TIME-KLT]: 0.8970 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.0030 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 3.4400 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.3482 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715527412143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715527412143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715527362142976.png
+[36m[TIME-KLT]: 0.5560 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0290 ms for detection
+[0m[36m[TIME-KLT]: 0.8700 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.7490 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 3.2060 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.3985 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715527462142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715527462142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715527412143104.png
+[36m[TIME-KLT]: 0.6060 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0270 ms for detection
+[0m[36m[TIME-KLT]: 1.0300 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0090 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.3060 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 3.9780 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.4113 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715527512143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715527512143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715527462142976.png
+[36m[TIME-KLT]: 0.6240 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0340 ms for detection
+[0m[36m[TIME-KLT]: 1.7370 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.0310 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 4.4270 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.4379 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715527562142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715527562142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715527512143104.png
+[36m[TIME-KLT]: 0.6970 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0410 ms for detection
+[0m[36m[TIME-KLT]: 2.2570 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.2520 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 5.2480 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.4785 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715527612143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715527612143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715527562142976.png
+[36m[TIME-KLT]: 0.5620 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0450 ms for detection
+[0m[36m[TIME-KLT]: 2.0090 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.0080 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 4.6250 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.5011 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715527662142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715527662142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715527612143104.png
+[36m[TIME-KLT]: 0.6640 ms for pyramid
+[0m[36m[TIME-KLT]: 2.0810 ms for detection
+[0m[36m[TIME-KLT]: 0.9100 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.4770 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 6.1330 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.5263 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715527712143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715527712143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715527662142976.png
+[36m[TIME-KLT]: 0.6850 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0400 ms for detection
+[0m[36m[TIME-KLT]: 2.0540 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0060 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.4770 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 5.2620 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.5351 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715527762142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715527762142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715527712143104.png
+[36m[TIME-KLT]: 1.2220 ms for pyramid
+[0m[36m[TIME-KLT]: 3.3340 ms for detection
+[0m[36m[TIME-KLT]: 3.1780 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0030 ms for stereo klt
+[0m[36m[TIME-KLT]: 4.8170 ms for feature DB update (148 features)
+[0m[36m[TIME-KLT]: 12.5540 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.5434 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715527812143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715527812143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715527762142976.png
+[36m[TIME-KLT]: 0.8910 ms for pyramid
+[0m[36m[TIME-KLT]: 1.2620 ms for detection
+[0m[36m[TIME-KLT]: 2.7630 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0070 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.2160 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 7.1390 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.5931 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715527862142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715527862142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715527812143104.png
+[36m[TIME-KLT]: 1.5980 ms for pyramid
+[0m[36m[TIME-KLT]: 0.1580 ms for detection
+[0m[36m[TIME-KLT]: 3.4990 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0030 ms for stereo klt
+[0m[36m[TIME-KLT]: 4.5120 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 9.7700 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.6557 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715527912143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715527912143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715527862142976.png
+[36m[TIME-KLT]: 0.6630 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0420 ms for detection
+[0m[36m[TIME-KLT]: 1.8290 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0070 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.7810 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 5.3220 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.7348 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715527962142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715527962142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715527912143104.png
+[36m[TIME-KLT]: 1.5590 ms for pyramid
+[0m[36m[TIME-KLT]: 0.1530 ms for detection
+[0m[36m[TIME-KLT]: 3.8320 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 3.7270 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 9.2730 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.8366 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715528012143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715528012143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715527962142976.png
+[36m[TIME-KLT]: 0.5350 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0330 ms for detection
+[0m[36m[TIME-KLT]: 1.5360 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0030 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.8220 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 3.9290 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.8781 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715528062142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715528062142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715528012143104.png
+[36m[TIME-KLT]: 1.5570 ms for pyramid
+[0m[36m[TIME-KLT]: 4.0020 ms for detection
+[0m[36m[TIME-KLT]: 3.7860 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0040 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.6040 ms for feature DB update (151 features)
+[0m[36m[TIME-KLT]: 11.9530 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.8987 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715528112143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715528112143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715528062142976.png
+[36m[TIME-KLT]: 0.7090 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0580 ms for detection
+[0m[36m[TIME-KLT]: 2.2620 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0040 ms for stereo klt
+[0m[36m[TIME-KLT]: 3.1900 ms for feature DB update (151 features)
+[0m[36m[TIME-KLT]: 6.2230 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.9073 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715528162142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715528162142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715528112143104.png
+[36m[TIME-KLT]: 0.7710 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0430 ms for detection
+[0m[36m[TIME-KLT]: 2.1460 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.7670 ms for feature DB update (151 features)
+[0m[36m[TIME-KLT]: 5.7290 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.9158 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715528212143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715528212143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715528162142976.png
+[36m[TIME-KLT]: 0.7680 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0440 ms for detection
+[0m[36m[TIME-KLT]: 2.8370 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0060 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.6480 ms for feature DB update (150 features)
+[0m[36m[TIME-KLT]: 6.3030 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.9290 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715528262142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715528262142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715528212143104.png
+[36m[TIME-KLT]: 0.5840 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0290 ms for detection
+[0m[36m[TIME-KLT]: 0.8100 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.2970 ms for feature DB update (150 features)
+[0m[36m[TIME-KLT]: 3.7210 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.9347 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715528312143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715528312143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715528262142976.png
+[36m[TIME-KLT]: 0.6970 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0420 ms for detection
+[0m[36m[TIME-KLT]: 0.9320 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.4010 ms for feature DB update (150 features)
+[0m[36m[TIME-KLT]: 4.0730 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.9433 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715528362142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715528362142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715528312143104.png
+[36m[TIME-KLT]: 0.6150 ms for pyramid
+[0m[36m[TIME-KLT]: 0.0310 ms for detection
+[0m[36m[TIME-KLT]: 0.8730 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0040 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.3030 ms for feature DB update (149 features)
+[0m[36m[TIME-KLT]: 3.8260 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 0.9577 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715528412143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715528412143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715528362142976.png
+[36m[TIME-KLT]: 0.5890 ms for pyramid
+[0m[36m[TIME-KLT]: 0.8720 ms for detection
+[0m[36m[TIME-KLT]: 1.4840 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.8510 ms for feature DB update (150 features)
+[0m[36m[TIME-KLT]: 4.7980 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 1.0018 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715528462142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715528462142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715528412143104.png
+[36m[TIME-KLT]: 0.6070 ms for pyramid
+[0m[36m[TIME-KLT]: 1.9130 ms for detection
+[0m[36m[TIME-KLT]: 1.8350 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0030 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.8950 ms for feature DB update (148 features)
+[0m[36m[TIME-KLT]: 6.2530 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 1.0911 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715528512143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715528512143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715528462142976.png
+[36m[TIME-KLT]: 0.5300 ms for pyramid
+[0m[36m[TIME-KLT]: 1.4630 ms for detection
+[0m[36m[TIME-KLT]: 2.2100 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0030 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.7800 ms for feature DB update (148 features)
+[0m[36m[TIME-KLT]: 5.9860 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[33mInertialInitializer::initialize_with_imu(): no IMU excitation, below threshold 1.4209 < 1.5000
+[0mNOT ENOUGH POINTS -- Tracking failed
+
+
+
+
+-------END OF FRAME ------
+quat: 0
+0
+0
+1
+vel: 0
+0
+0
+pose: 0
+0
+0
+
+Loading image at: data/mav0/cam0/data/1403715528562142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715528562142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715528512143104.png
+[36m[TIME-KLT]: 0.6880 ms for pyramid
+[0m[36m[TIME-KLT]: 1.0000 ms for detection
+[0m[36m[TIME-KLT]: 3.2260 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0040 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.3230 ms for feature DB update (144 features)
+[0m[36m[TIME-KLT]: 7.2410 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m[32m[INIT]: orientation = 0.8139, -0.0261, 0.5793, 0.0366
+[0m[32m[INIT]: bias gyro = -0.0011, 0.0187, 0.0775
+[0m[32m[INIT]: velocity = 0.0000, 0.0000, 0.0000
+[0m[32m[INIT]: bias accel = -0.0293, -0.0009, 0.0101
+[0m[32m[INIT]: position = 0.0000, 0.0000, 0.0000
+[0mwaiting for enough clone states (1 of 5)....
+
+
+
+
+-------END OF FRAME ------
+quat:   0.822005
+-0.0291602
+  0.567626
+ 0.0354597
+vel: 0.0380463
+0.0136546
+0.0634358
+pose:  0.00703033
+-0.00301737
+ 0.00367103
+
+Loading image at: data/mav0/cam0/data/1403715528612143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715528612143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715528562142976.png
+[36m[TIME-KLT]: 0.6310 ms for pyramid
+[0m[36m[TIME-KLT]: 0.8090 ms for detection
+[0m[36m[TIME-KLT]: 0.8890 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.8650 ms for feature DB update (135 features)
+[0m[36m[TIME-KLT]: 4.1960 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0mwaiting for enough clone states (2 of 5)....
+
+
+
+
+-------END OF FRAME ------
+quat:   0.822533
+-0.0306044
+  0.566848
+ 0.0344496
+vel: 0.0450692
+0.0300898
+0.0935246
+pose:  0.00880467
+-0.00209365
+  0.0071883
+
+Loading image at: data/mav0/cam0/data/1403715528662142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715528662142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715528612143104.png
+[36m[TIME-KLT]: 0.5720 ms for pyramid
+[0m[36m[TIME-KLT]: 0.7480 ms for detection
+[0m[36m[TIME-KLT]: 1.0520 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 2.1810 ms for feature DB update (127 features)
+[0m[36m[TIME-KLT]: 4.5550 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0mwaiting for enough clone states (3 of 5)....
+
+
+
+
+-------END OF FRAME ------
+quat:   0.821707
+-0.0317373
+  0.568006
+ 0.0340521
+vel: 0.0638392
+0.0318128
+ 0.136435
+pose:    0.0112637
+-0.000735804
+   0.0124617
+
+Loading image at: data/mav0/cam0/data/1403715528712143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715528712143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715528662142976.png
+[36m[TIME-KLT]: 0.5570 ms for pyramid
+[0m[36m[TIME-KLT]: 0.7050 ms for detection
+[0m[36m[TIME-KLT]: 1.9710 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.8500 ms for feature DB update (118 features)
+[0m[36m[TIME-KLT]: 5.0840 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0mwaiting for enough clone states (4 of 5)....
+
+
+
+
+-------END OF FRAME ------
+quat:   0.820431
+-0.0331866
+  0.569802
+ 0.0334438
+vel:  0.081965
+0.0404218
+ 0.160496
+pose:   0.0144713
+0.000961346
+  0.0189349
+
+Loading image at: data/mav0/cam0/data/1403715528762142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715528762142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715528712143104.png
+[36m[TIME-KLT]: 0.6880 ms for pyramid
+[0m[36m[TIME-KLT]: 0.6560 ms for detection
+[0m[36m[TIME-KLT]: 3.0350 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.9300 ms for feature DB update (112 features)
+[0m[36m[TIME-KLT]: 6.3100 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m
+featsup_MSCKF 95
+feats_maxtracks 0
+feats_slam 0
+feats_lost 95[MSCKF-UP]: 0.0017 seconds to clean
+[MSCKF-UP]: 0.0147 seconds to triangulate
+[MSCKF-UP]: 0.0022 seconds create system (3 features)
+[MSCKF-UP]: 0.0000 seconds compress system
+[MSCKF-UP]: 0.0007 seconds update state (21 size)
+[MSCKF-UP]: 0.0177 seconds total
+[34m[TIME]: 6.3200 ms for tracking
+[0m[34m[TIME]: 1.7540 ms for propagation
+[0m[34m[TIME]: 19.4580 ms for MSCKF update (3 features)
+[0m[34m[TIME]: 0.0010 ms for SLAM update (0 feats)
+[0m[34m[TIME]: 0.0000 ms for SLAM delayed init (0 feats)
+[0m[34m[TIME]: 3.4230 ms for marginalization (5 clones in state)
+[0m[34m[TIME]: 30.9560 ms for total
+[0m[32m[AVG-TIME]: 6.3200 ms for tracking
+[0m[32m[AVG-TIME]: 24.6360 ms for filter
+[0m[32m[AVG-TIME]: 30.9560 ms for total
+[0mq_GtoI = 0.840,-0.035,0.540,0.049 | p_IinG = 0.356,0.089,0.081 | dist = 0.00 (meters)
+bg = 0.0189,0.0185,0.0706 | ba = -0.0668,0.0007,0.0150
+camera-imu timeoffset = 0.00182
+cam0 intrinsics = 458.701,457.186,367.147,248.541 | -0.283,0.074,0.001,0.003
+cam1 intrinsics = 457.529,456.270,380.069,255.066 | -0.284,0.074,-0.001,-0.003
+cam0 extrinsics = -0.008,0.011,0.702,0.712 | 0.059,-0.015,-0.005
+cam1 extrinsics = -0.003,0.015,0.702,0.712 | -0.038,-0.026,-0.012
+
+
+
+
+-------END OF FRAME ------
+quat:   0.839766
+-0.0351531
+  0.539625
+ 0.0486008
+vel: 0.810761
+0.234251
+0.251925
+pose:  0.356046
+0.0894665
+0.0807081
+
+Loading image at: data/mav0/cam0/data/1403715528812143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715528812143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715528762142976.png
+[36m[TIME-KLT]: 0.5050 ms for pyramid
+[0m[36m[TIME-KLT]: 1.5920 ms for detection
+[0m[36m[TIME-KLT]: 3.0430 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.7660 ms for feature DB update (111 features)
+[0m[36m[TIME-KLT]: 6.9070 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m
+featsup_MSCKF 28
+feats_maxtracks 0
+feats_slam 0
+feats_lost 28[MSCKF-UP]: 0.0004 seconds to clean
+[MSCKF-UP]: 0.0127 seconds to triangulate
+[MSCKF-UP]: 0.0039 seconds create system (2 features)
+[MSCKF-UP]: 0.0000 seconds compress system
+[MSCKF-UP]: 0.0006 seconds update state (14 size)
+[MSCKF-UP]: 0.0172 seconds total
+[34m[TIME]: 6.9170 ms for tracking
+[0m[34m[TIME]: 1.5980 ms for propagation
+[0m[34m[TIME]: 17.6230 ms for MSCKF update (2 features)
+[0m[34m[TIME]: 0.0010 ms for SLAM update (0 feats)
+[0m[34m[TIME]: 0.0000 ms for SLAM delayed init (0 feats)
+[0m[34m[TIME]: 3.0070 ms for marginalization (6 clones in state)
+[0m[34m[TIME]: 29.1460 ms for total
+[0m[32m[AVG-TIME]: 6.6185 ms for tracking
+[0m[32m[AVG-TIME]: 23.4325 ms for filter
+[0m[32m[AVG-TIME]: 30.0510 ms for total
+[0mq_GtoI = 0.838,-0.035,0.543,0.042 | p_IinG = 0.366,0.093,0.098 | dist = 0.04 (meters)
+bg = 0.0061,0.0188,0.0656 | ba = -0.0702,0.0006,0.0168
+camera-imu timeoffset = 0.00203
+cam0 intrinsics = 458.644,457.265,367.080,248.515 | -0.283,0.075,0.001,0.002
+cam1 intrinsics = 457.561,456.203,380.123,255.096 | -0.284,0.074,-0.001,-0.003
+cam0 extrinsics = -0.008,0.011,0.702,0.712 | 0.056,-0.015,-0.006
+cam1 extrinsics = -0.003,0.015,0.702,0.712 | -0.036,-0.026,-0.012
+
+
+
+
+-------END OF FRAME ------
+quat:   0.837638
+-0.0347981
+  0.543468
+ 0.0423604
+vel: 0.799378
+0.209508
+0.274902
+pose:  0.366442
+ 0.092761
+0.0979491
+
+Loading image at: data/mav0/cam0/data/1403715528862142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715528862142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715528812143104.png
+[36m[TIME-KLT]: 0.6170 ms for pyramid
+[0m[36m[TIME-KLT]: 0.6940 ms for detection
+[0m[36m[TIME-KLT]: 1.2310 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0020 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.7500 ms for feature DB update (109 features)
+[0m[36m[TIME-KLT]: 4.2940 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m
+featsup_MSCKF 32
+feats_maxtracks 0
+feats_slam 0
+feats_lost 32[MSCKF-UP]: 0.0005 seconds to clean
+[MSCKF-UP]: 0.0140 seconds to triangulate
+[MSCKF-UP]: 0.0059 seconds create system (1 features)
+[MSCKF-UP]: 0.0000 seconds compress system
+[MSCKF-UP]: 0.0005 seconds update state (9 size)
+[MSCKF-UP]: 0.0205 seconds total
+[34m[TIME]: 4.3040 ms for tracking
+[0m[34m[TIME]: 1.4640 ms for propagation
+[0m[34m[TIME]: 20.9580 ms for MSCKF update (1 features)
+[0m[34m[TIME]: 0.0010 ms for SLAM update (0 feats)
+[0m[34m[TIME]: 0.0000 ms for SLAM delayed init (0 feats)
+[0m[34m[TIME]: 2.5910 ms for marginalization (7 clones in state)
+[0m[34m[TIME]: 29.3180 ms for total
+[0m[32m[AVG-TIME]: 5.8470 ms for tracking
+[0m[32m[AVG-TIME]: 23.9597 ms for filter
+[0m[32m[AVG-TIME]: 29.8067 ms for total
+[0mq_GtoI = 0.841,-0.032,0.540,0.033 | p_IinG = 0.426,0.103,0.121 | dist = 0.08 (meters)
+bg = -0.0158,0.0291,0.0560 | ba = -0.0794,0.0007,0.0199
+camera-imu timeoffset = 0.00026
+cam0 intrinsics = 458.580,457.295,367.571,248.318 | -0.282,0.075,0.001,0.003
+cam1 intrinsics = 457.629,456.129,380.097,255.098 | -0.284,0.074,-0.002,-0.003
+cam0 extrinsics = -0.008,0.010,0.702,0.712 | 0.058,-0.015,-0.006
+cam1 extrinsics = -0.003,0.015,0.702,0.712 | -0.038,-0.027,-0.012
+
+
+
+
+-------END OF FRAME ------
+quat:   0.840571
+-0.0317346
+  0.539768
+ 0.0329348
+vel: 0.894218
+0.187367
+0.303784
+pose: 0.425535
+0.103498
+0.121073
+
+Loading image at: data/mav0/cam0/data/1403715528912143104.png
+
+Loaded image at: data/mav0/cam0/data/1403715528912143104.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715528862142976.png
+[36m[TIME-KLT]: 0.5440 ms for pyramid
+[0m[36m[TIME-KLT]: 0.9090 ms for detection
+[0m[36m[TIME-KLT]: 1.3230 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.5220 ms for feature DB update (107 features)
+[0m[36m[TIME-KLT]: 4.2990 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m
+featsup_MSCKF 19
+feats_maxtracks 0
+feats_slam 0
+feats_lost 19[34m[TIME]: 4.3110 ms for tracking
+[0m[34m[TIME]: 1.4830 ms for propagation
+[0m[34m[TIME]: 13.9540 ms for MSCKF update (0 features)
+[0m[34m[TIME]: 0.0000 ms for SLAM update (0 feats)
+[0m[34m[TIME]: 0.0010 ms for SLAM delayed init (0 feats)
+[0m[34m[TIME]: 2.4180 ms for marginalization (8 clones in state)
+[0m[34m[TIME]: 22.1670 ms for total
+[0m[32m[AVG-TIME]: 5.4630 ms for tracking
+[0m[32m[AVG-TIME]: 22.4337 ms for filter
+[0m[32m[AVG-TIME]: 27.8968 ms for total
+[0mq_GtoI = 0.839,-0.032,0.542,0.033 | p_IinG = 0.465,0.112,0.134 | dist = 0.12 (meters)
+bg = -0.0158,0.0291,0.0560 | ba = -0.0794,0.0007,0.0199
+camera-imu timeoffset = 0.00026
+cam0 intrinsics = 458.580,457.295,367.571,248.318 | -0.282,0.075,0.001,0.003
+cam1 intrinsics = 457.629,456.129,380.097,255.098 | -0.284,0.074,-0.002,-0.003
+cam0 extrinsics = -0.008,0.010,0.702,0.712 | 0.058,-0.015,-0.006
+cam1 extrinsics = -0.003,0.015,0.702,0.712 | -0.038,-0.027,-0.012
+
+
+
+
+-------END OF FRAME ------
+quat:   0.839435
+-0.0318979
+  0.541505
+ 0.0332297
+vel: 0.937518
+ 0.19696
+0.315263
+pose: 0.464896
+0.111736
+0.134452
+
+Loading image at: data/mav0/cam0/data/1403715528962142976.png
+
+Loaded image at: data/mav0/cam0/data/1403715528962142976.png
+
+cvtColor begin
+
+cvtColor end
+
+Load image at: data/mav0/cam1/data/1403715528912143104.png
+[36m[TIME-KLT]: 0.6070 ms for pyramid
+[0m[36m[TIME-KLT]: 0.8150 ms for detection
+[0m[36m[TIME-KLT]: 0.9420 ms for temporal klt
+[0m[36m[TIME-KLT]: 0.0010 ms for stereo klt
+[0m[36m[TIME-KLT]: 1.8160 ms for feature DB update (121 features)
+[0m[36m[TIME-KLT]: 4.1810 ms for total
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for pyramid
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for detection
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for matching
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for feature DB update
+[0m[37m[AVG-TIME-KLT]: 0.0000 ms for total
+[0m
+featsup_MSCKF 22
+feats_maxtracks 0
+feats_slam 0
+feats_lost 22[34m[TIME]: 4.1920 ms for tracking
+[0m[34m[TIME]: 1.5010 ms for propagation
+[0m[34m[TIME]: 17.6750 ms for MSCKF update (0 features)
+[0m[34m[TIME]: 0.0010 ms for SLAM update (0 feats)
+[0m[34m[TIME]: 0.0000 ms for SLAM delayed init (0 feats)
+[0m[34m[TIME]: 2.2140 ms for marginalization (9 clones in state)
+[0m[34m[TIME]: 25.5830 ms for total
+[0m[32m[AVG-TIME]: 5.2088 ms for tracking
+[0m[32m[AVG-TIME]: 22.2252 ms for filter
+[0m[32m[AVG-TIME]: 27.4340 ms for total
+[0mq_GtoI = 0.839,-0.033,0.542,0.033 | p_IinG = 0.508,0.121,0.149 | dist = 0.17 (meters)
+bg = -0.0158,0.0291,0.0560 | ba = -0.0794,0.0007,0.0199
+camera-imu timeoffset = 0.00026
+cam0 intrinsics = 458.580,457.295,367.571,248.318 | -0.282,0.075,0.001,0.003
+cam1 intrinsics = 457.629,456.129,380.097,255.098 | -0.284,0.074,-0.002,-0.003
+cam0 extrinsics = -0.008,0.010,0.702,0.712 | 0.058,-0.015,-0.006
+cam1 extrinsics = -0.003,0.015,0.702,0.712 | -0.038,-0.027,-0.012
+
+
+
+
+-------END OF FRAME ------
+quat:    0.83898
+-0.0325693
+  0.542174
+ 0.0331492
+vel: 0.978398
+0.202995
+0.327396
+pose: 0.507642
+0.120608
+0.148655
+DONE!
