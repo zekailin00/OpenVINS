@@ -44,7 +44,8 @@ if (CMAKE_CROSSCOMPILING)
     set(BUILD_WITHOUT_LAPACK OFF)
     set(BUILD_TESTING OFF)
     set(BUILD_BENCHMARKS OFF)
-    set(TARGET "RISCV64_ZVL256B")
+    set(TARGET "RISCV64_GENERIC")
+    add_definitions(-DGEMMINI_BACKEND)
 
     #OpenVINS CrosCompiling Settings
     add_definitions(-DCYCLE_COUNT_BENCH)
